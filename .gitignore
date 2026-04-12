@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Build outputs
+build/
+dist/
+*.spec.bak
+
+# Local caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+
+# Large generated data
+artifacts/smoke_*/
+artifacts/speed_*/
+artifacts/*.npz
+artifacts/*all_element*.pt
+dist/*.zip
+
+# Keep the trained lightweight checkpoint used by the GUI
+!artifacts/2p_ao_phase_to_comp74_lightweight_cnn_1000samples.pt

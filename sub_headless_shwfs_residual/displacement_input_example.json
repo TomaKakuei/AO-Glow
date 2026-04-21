@@ -1,0 +1,13 @@
+{
+  "description": "Example input for the shortest non-UI SHWFS residual chain. Units are mm.",
+  "perturbations": [
+    {"surface_index": 68, "dx_mm": 0.030, "dy_mm": -0.015, "dz_mm": 0.020},
+    {"surface_index": 70, "dx_mm": -0.020, "dy_mm": 0.010, "dz_mm": -0.010},
+    {"surface_index": 72, "dx_mm": 0.010, "dy_mm": 0.005, "dz_mm": 0.015},
+    {"surface_index": 74, "dx_mm": -0.015, "dy_mm": -0.020, "dz_mm": 0.010},
+    {"surface_index": 77, "dx_mm": 0.020, "dy_mm": 0.010, "dz_mm": -0.005},
+    {"surface_index": 79, "dx_mm": -0.010, "dy_mm": 0.020, "dz_mm": -0.015},
+    {"surface_index": 81, "dx_mm": 0.015, "dy_mm": -0.010, "dz_mm": 0.025},
+    {"surface_index": 84, "dx_mm": 0.005, "dy_mm": 0.005, "dz_mm": 0.010}
+  ]
+}

@@ -28,6 +28,8 @@ If you only need the latest 12-mode runner file, start here:
 
 - [tmp_v10_2_quantized12_mode5cases.py](</c:/Users/arthu/OneDrive/文档/_UCSB/ECE/Adaptive%20Optics/ADAPTIVE_OPTICS_V10_2/tmp_v10_2_quantized12_mode5cases.py>)
 
+Older branch snapshots are archived under [Historical/](</c:/Users/arthu/OneDrive/文档/_UCSB/ECE/Adaptive%20Optics/Historical>).
+
 ## What Is Included
 
 - `optical_model_rayoptics.py`

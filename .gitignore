@@ -25,3 +25,11 @@ dist/*.zip
 
 # Keep the trained lightweight checkpoint used by the GUI
 !artifacts/2p_ao_phase_to_comp74_lightweight_cnn_1000samples.pt
+
+# Portable DAO server output (curated vendor weights/calibration remain tracked)
+/runs/
+*.egg-info/
+/dao_kaleid/vendor/**/data/
+/dao_kaleid/vendor/**/results/cases/
+/dao_kaleid/vendor/**/results/full_control80/
+/dao_kaleid/vendor/**/.diagnostics/

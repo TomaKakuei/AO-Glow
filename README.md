@@ -1,5 +1,7 @@
 # AO-Glow
 
+**DAO + Kaleid server runtime (2026-10-06):** the complete headless package for Mod3, Trepan, KLA and Nikon is documented in [DAO_SERVER_README.md](DAO_SERVER_README.md). It includes 19 checkpoint files, RayOptics prescriptions, noisy camera/optical simulation, streaming generation and feedback paths. Start with `python -m dao_kaleid doctor`.
+
 Closed-loop active-alignment simulator for adaptive optics, built around a pure-Python `rayoptics` core so the application can be packaged into a portable Windows executable with PyInstaller.
 
 ## Current AO Benchmark Index

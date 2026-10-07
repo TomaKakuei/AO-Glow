@@ -1,0 +1,178 @@
+{
+  "status": "passed",
+  "platform": "Windows, Python 3.11, existing ao311 environment; Linux deployment not executed",
+  "scope": "Functional portability and wiring checks only, not new recovery-rate experiments",
+  "systems": {
+    "mod3": {
+      "status": "passed",
+      "system": "mod3",
+      "device": "cpu",
+      "original_workspace_reads_forbidden": true,
+      "qt_notebook_dm_imports_forbidden": true,
+      "checkpoints_loaded": 4,
+      "checks": [
+        {
+          "profile": "latest",
+          "branch": "front",
+          "output_size": 15,
+          "fixture_max_error": 9.372830390930176e-06
+        },
+        {
+          "profile": "latest",
+          "branch": "rear",
+          "output_size": 20,
+          "fixture_max_error": 3.225170075893402e-06
+        },
+        {
+          "profile": "closed_loop",
+          "branch": "front",
+          "output_size": 15,
+          "fixture_max_error": null
+        },
+        {
+          "profile": "closed_loop",
+          "branch": "rear",
+          "output_size": 20,
+          "fixture_max_error": null
+        }
+      ],
+      "elapsed_seconds": 0.3474486998748034,
+      "noisy_sample_generation": "passed",
+      "short_feedback_integration": "passed"
+    },
+    "nikon": {
+      "status": "passed",
+      "system": "nikon",
+      "device": "cpu",
+      "original_workspace_reads_forbidden": true,
+      "qt_notebook_dm_imports_forbidden": true,
+      "checkpoints_loaded": 4,
+      "checks": [
+        {
+          "profile": "latest",
+          "branch": "joint",
+          "output_size": 35,
+          "fixture_max_error": 0.0
+        },
+        {
+          "profile": "closed_loop",
+          "branch": "G1",
+          "output_size": 35,
+          "fixture_max_error": null
+        },
+        {
+          "profile": "closed_loop",
+          "branch": "G2",
+          "output_size": 35,
+          "fixture_max_error": null
+        },
+        {
+          "profile": "closed_loop",
+          "branch": "G3",
+          "output_size": 35,
+          "fixture_max_error": null
+        }
+      ],
+      "elapsed_seconds": 0.2632043999619782,
+      "noisy_sample_generation": "passed",
+      "short_feedback_integration": "passed"
+    },
+    "trepan": {
+      "status": "passed",
+      "system": "trepan",
+      "device": "cpu",
+      "original_workspace_reads_forbidden": true,
+      "qt_notebook_dm_imports_forbidden": true,
+      "checkpoints_loaded": 4,
+      "checks": [
+        {
+          "profile": "closed_loop",
+          "branch": "front",
+          "output_size": 20,
+          "fixture_max_error": null
+        },
+        {
+          "profile": "closed_loop",
+          "branch": "rear",
+          "output_size": 20,
+          "fixture_max_error": null
+        },
+        {
+          "profile": "differentiable",
+          "branch": "front",
+          "output_size": 20,
+          "fixture_max_error": null
+        },
+        {
+          "profile": "differentiable",
+          "branch": "rear",
+          "output_size": 20,
+          "fixture_max_error": null
+        }
+      ],
+      "elapsed_seconds": 0.2738267001695931,
+      "noisy_sample_generation": "passed",
+      "short_feedback_integration": "passed"
+    },
+    "kla": {
+      "status": "passed",
+      "system": "kla",
+      "device": "cpu",
+      "original_workspace_reads_forbidden": true,
+      "qt_notebook_dm_imports_forbidden": true,
+      "checkpoints_loaded": 7,
+      "checks": [
+        {
+          "profile": "closed_loop",
+          "branch": "module2",
+          "output_size": 15,
+          "fixture_max_error": null
+        },
+        {
+          "profile": "closed_loop",
+          "branch": "module3",
+          "output_size": 15,
+          "fixture_max_error": null
+        },
+        {
+          "profile": "closed_loop",
+          "branch": "module4",
+          "output_size": 10,
+          "fixture_max_error": null
+        },
+        {
+          "profile": "warmstart_7k",
+          "branch": "module2",
+          "output_size": 15,
+          "fixture_max_error": null
+        },
+        {
+          "profile": "differentiable",
+          "branch": "module2",
+          "output_size": 15,
+          "fixture_max_error": null
+        },
+        {
+          "profile": "differentiable",
+          "branch": "module3",
+          "output_size": 15,
+          "fixture_max_error": null
+        },
+        {
+          "profile": "differentiable",
+          "branch": "module4",
+          "output_size": 10,
+          "fixture_max_error": null
+        }
+      ],
+      "elapsed_seconds": 0.34532879991456866,
+      "noisy_sample_generation": "passed",
+      "short_feedback_integration": "passed"
+    }
+  },
+  "original_replay_checks": {
+    "trepan": "Full original 20-reading L4 path completed; historical ideal WRMS scoring explicitly isolated",
+    "kla": "Original module/phase/local/broad/target stages completed with reduced integration-check optimizer caps"
+  },
+  "http_service": "Health and noisy 35-axis prediction passed"
+}

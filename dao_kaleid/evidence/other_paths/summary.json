@@ -1,0 +1,96 @@
+{
+  "status": "complete",
+  "pid": 15196,
+  "completed_modules": [
+    "trepan_front",
+    "trepan_rear",
+    "kla_module2",
+    "kla_module3",
+    "kla_module4"
+  ],
+  "elapsed_wall_seconds": 17449.595121899853,
+  "manifests": {
+    "trepan": {
+      "state": "ready",
+      "version": "other_paths_differentiable_20261001",
+      "system": "trepan",
+      "checkpoints": {
+        "trepan_front": {
+          "epoch": 8,
+          "validation": {
+            "loss": 0.17830336762378232,
+            "score_mean": 0.03321248510095059,
+            "passes": 1287,
+            "count": 1300,
+            "reduced_gains": 0
+          },
+          "path": "C:\\Users\\arthu\\OneDrive\\文档\\_UCSB\\ECE\\Adaptive Optics\\ADAPTIVE_OPTICS_V15P\\other_paths_differentiable_20261001\\trepan_front\\candidate.pt",
+          "sha256": "8d9858f7781601d4ef33b46be243f2e3b1626ea4f31941d821b87e0e9b760953"
+        },
+        "trepan_rear": {
+          "epoch": 7,
+          "validation": {
+            "loss": 0.12775394816860738,
+            "score_mean": 0.027061526219990275,
+            "passes": 1300,
+            "count": 1300,
+            "reduced_gains": 0
+          },
+          "path": "C:\\Users\\arthu\\OneDrive\\文档\\_UCSB\\ECE\\Adaptive Optics\\ADAPTIVE_OPTICS_V15P\\other_paths_differentiable_20261001\\trepan_rear\\candidate.pt",
+          "sha256": "50f49d1b190c8a823238adef0616b3143067da0e9095a48ff2701c315972bfd6"
+        }
+      },
+      "original_active_manifest_preserved": true,
+      "scope": "original-input modular candidates; heldout one-shot comparison; paper closed-loop comparison not yet run",
+      "assistant_review": "pending"
+    },
+    "kla": {
+      "state": "ready",
+      "version": "other_paths_differentiable_20261001",
+      "system": "kla",
+      "checkpoints": {
+        "kla_module2": {
+          "epoch": 9,
+          "validation": {
+            "loss": 1.490761107523436,
+            "score_mean": 0.20814692980939453,
+            "passes": 32,
+            "count": 1000,
+            "reduced_gains": 0
+          },
+          "path": "C:\\Users\\arthu\\OneDrive\\文档\\_UCSB\\ECE\\Adaptive Optics\\ADAPTIVE_OPTICS_V15P\\other_paths_differentiable_20261001\\kla_module2\\candidate.pt",
+          "sha256": "f22be5e829e87f27f5baf9be1373d3dd54210113c2586a08b993f7647e3d0a03"
+        },
+        "kla_module3": {
+          "epoch": 10,
+          "validation": {
+            "loss": 1.315099045712433,
+            "score_mean": 0.31171551903061584,
+            "passes": 143,
+            "count": 1000,
+            "reduced_gains": 0
+          },
+          "path": "C:\\Users\\arthu\\OneDrive\\文档\\_UCSB\\ECE\\Adaptive Optics\\ADAPTIVE_OPTICS_V15P\\other_paths_differentiable_20261001\\kla_module3\\candidate.pt",
+          "sha256": "6b7ecf6a714d96bfbbc994e2d6cd241a9047ffbb08feb1804247dfa1fb9fdc69"
+        },
+        "kla_module4": {
+          "epoch": 0,
+          "validation": {
+            "loss": 1.5549697883255513,
+            "score_mean": 0.17631072340210516,
+            "passes": 48,
+            "count": 1000,
+            "reduced_gains": 0
+          },
+          "path": "C:\\Users\\arthu\\OneDrive\\文档\\_UCSB\\ECE\\Adaptive Optics\\ADAPTIVE_OPTICS_V15P\\other_paths_differentiable_20261001\\kla_module4\\candidate.pt",
+          "sha256": "6949755a3962393fab17f8fe1bbe19774348022b46afac23dc0943d9e0f5c65f"
+        }
+      },
+      "original_active_manifest_preserved": true,
+      "scope": "original-input modular candidates; heldout one-shot comparison; paper closed-loop comparison not yet run",
+      "assistant_review": "pending"
+    }
+  },
+  "assistant_review": "pending",
+  "new_sensor_samples": 0
+}

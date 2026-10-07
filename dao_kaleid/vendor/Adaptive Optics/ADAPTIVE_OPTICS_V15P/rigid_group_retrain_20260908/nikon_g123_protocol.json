@@ -1,0 +1,13 @@
+{
+  "version": "nikon_g123_20260908",
+  "groups": {"G1": ["L1", "L2", "L3"], "G2": ["L4", "L5", "L6"], "G3": ["L7p"]},
+  "body_indices": {"G1": [0, 1, 2], "G2": [3, 4, 5], "G3": [6]},
+  "samples_per_group": 5000,
+  "batch_size": 100,
+  "epochs": 35,
+  "sampling_mode": "joint_context",
+  "sampling_mode_note": "Provisional default matching the combined-assembly controller; can be changed to isolated before the safe handoff.",
+  "seed_bases": {"G1": 2026100000, "G2": 2026200000, "G3": 2026300000},
+  "input_transform": "raw_float32",
+  "old_paired_dataset_reused": false
+}

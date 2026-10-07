@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ao-glow-dao"
+version = "2026.10.6"
+description = "Portable DAO/Kaleid lens alignment simulation and feedback runtime"
+requires-python = ">=3.11"
+dependencies = ["numpy>=2.3,<3", "scipy>=1.15,<2", "rayoptics==0.9.8", "opticalglass>=1.0,<2", "matplotlib>=3.9,<4", "torch>=2.5,<3"]
+
+[project.scripts]
+dao-kaleid = "dao_kaleid.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["dao_kaleid"]
+
+[tool.setuptools.package-data]
+dao_kaleid = ["*.json", "vendor/**/*", "evidence/**/*", "fixtures/*"]
+
+[tool.setuptools.exclude-package-data]
+dao_kaleid = ["**/__pycache__/*", "**/*.pyc", "**/*.pyo", "**/.diagnostics/**/*"]

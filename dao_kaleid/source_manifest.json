@@ -1,0 +1,750 @@
+{
+  "version": "20261006",
+  "files": [
+    {
+      "source": "Adaptive Optics/ADAPTIVE_OPTICS_V15P/optical_model_rayoptics.py",
+      "destination": "vendor/Adaptive Optics/ADAPTIVE_OPTICS_V15P/optical_model_rayoptics.py",
+      "source_sha256": "93fb3230ead6db9b8de90b7d3bef498faefbea42b695f7aaaa29d937cafb60c1",
+      "sha256": "93fb3230ead6db9b8de90b7d3bef498faefbea42b695f7aaaa29d937cafb60c1",
+      "bytes": 96785,
+      "transformation": null
+    },
+    {
+      "source": "Adaptive Optics/ADAPTIVE_OPTICS_V15P/generate_speckle_dataset.py",
+      "destination": "vendor/Adaptive Optics/ADAPTIVE_OPTICS_V15P/generate_speckle_dataset.py",
+      "source_sha256": "c63796ff5581e279424e264850939066258fe8f09e6a4ae77906b96fec76bc1f",
+      "sha256": "385ffcb98dede7e8b35d6df8bb5d0c463e5d49603f6cb132f525bc60f4639bb2",
+      "bytes": 11318,
+      "transformation": "Resolve diffuser/output asset roots from the packaged source file rather than process working directory."
+    },
+    {
+      "source": "Adaptive Optics/ADAPTIVE_OPTICS_V15P/eval_selected_trepan2p_ablation.py",
+      "destination": "vendor/Adaptive Optics/ADAPTIVE_OPTICS_V15P/eval_selected_trepan2p_ablation.py",
+      "source_sha256": "94e107d26a4972abb332d934c823d7ce0dec673d2d6744b76b582423671bd484",
+      "sha256": "94e107d26a4972abb332d934c823d7ce0dec673d2d6744b76b582423671bd484",
+      "bytes": 43003,
+      "transformation": null
+    },
+    {
+      "source": "Adaptive Optics/ADAPTIVE_OPTICS_V15P/canonical_three_phase_universal/models.py",
+      "destination": "vendor/Adaptive Optics/ADAPTIVE_OPTICS_V15P/canonical_three_phase_universal/models.py",
+      "source_sha256": "68bbc54aa447f30a88cc29117f15e7e373a6ac1a4114dccdf990553e38a4cfd5",
+      "sha256": "68bbc54aa447f30a88cc29117f15e7e373a6ac1a4114dccdf990553e38a4cfd5",
+      "bytes": 13259,
+      "transformation": null
+    },
+    {
+      "source": "Adaptive Optics/ADAPTIVE_OPTICS_V15P/rigid_group_retrain_20260908/control_bridge.py",
+      "destination": "vendor/Adaptive Optics/ADAPTIVE_OPTICS_V15P/rigid_group_retrain_20260908/control_bridge.py",
+      "source_sha256": "d5558e2de71acf8fafdfa4c84b43504559e6980b237004ec948d99cfa7fa9470",
+      "sha256": "d5558e2de71acf8fafdfa4c84b43504559e6980b237004ec948d99cfa7fa9470",
+      "bytes": 4897,
+      "transformation": null
+    },
+    {
+      "source": "Adaptive Optics/ADAPTIVE_OPTICS_V15P/rigid_group_retrain_20260908/fast_trepan_mainline.py",
+      "destination": "vendor/Adaptive Optics/ADAPTIVE_OPTICS_V15P/rigid_group_retrain_20260908/fast_trepan_mainline.py",
+      "source_sha256": "abe3319e039fe56398c270810d7d4bed54af23aacbc31418508a64ee14385e5b",
+      "sha256": "abe3319e039fe56398c270810d7d4bed54af23aacbc31418508a64ee14385e5b",
+      "bytes": 3380,
+      "transformation": null
+    },
+    {
+      "source": "Adaptive Optics/ADAPTIVE_OPTICS_V15P/rigid_group_retrain_20260908/nikon_g123.py",
+      "destination": "vendor/Adaptive Optics/ADAPTIVE_OPTICS_V15P/rigid_group_retrain_20260908/nikon_g123.py",
+      "source_sha256": "1a1775cdac295a5b9748920cdeacfca2bb3ffbf568292a548c7b6c056551b880",
+      "sha256": "1a1775cdac295a5b9748920cdeacfca2bb3ffbf568292a548c7b6c056551b880",
+      "bytes": 2607,
+      "transformation": null
+    },
+    {
+      "source": "Adaptive Optics/ADAPTIVE_OPTICS_V15P/rigid_group_retrain_20260908/fast_execution.py",
+      "destination": "vendor/Adaptive Optics/ADAPTIVE_OPTICS_V15P/rigid_group_retrain_20260908/fast_execution.py",
+      "source_sha256": "ad03ad7a067e803912c158d5c2e13f4759c98de899fcb43018f6fdd483bd6072",
+      "sha256": "ad03ad7a067e803912c158d5c2e13f4759c98de899fcb43018f6fdd483bd6072",
+      "bytes": 1800,
+      "transformation": null
+    },
+    {
+      "source": "Adaptive Optics/ADAPTIVE_OPTICS_V15P/rigid_group_retrain_20260908/run_trepan_limit20.py",
+      "destination": "vendor/Adaptive Optics/ADAPTIVE_OPTICS_V15P/rigid_group_retrain_20260908/run_trepan_limit20.py",
+      "source_sha256": "460d07bf6bb8537ef50734b244aa7f9e8fd1913558b8e4e28cee370a3f1e3ce1",
+      "sha256": "b1e43ed2750306e4b09d3796a3a88f1f0dcf71ec677335d48efde0c53712fe1b",
+      "bytes": 13066,
+      "transformation": "Portable parent creation only; numerical computation unchanged."
+    },
+    {
+      "source": "Adaptive Optics/ADAPTIVE_OPTICS_V15P/kaleid_scope_repair_20260906/evaluate_nikon35_full.py",
+      "destination": "vendor/Adaptive Optics/ADAPTIVE_OPTICS_V15P/kaleid_scope_repair_20260906/evaluate_nikon35_full.py",
+      "source_sha256": "d0e77d63865869c841f8f8a36548630aad7cf6343e2b1d41407388b9918d29ef",
+      "sha256": "2e5651edc70336e8655480e5d2414a3a73aaac8ab86d0d8e142eaa50dd7e4288",
+      "bytes": 15959,
+      "transformation": "Portable parent creation only; numerical computation unchanged."
+    },
+    {
+      "source": "Adaptive Optics/ADAPTIVE_OPTICS_V15P/kaleid_modular_repair_20260906/restore_trepan.py",
+      "destination": "vendor/Adaptive Optics/ADAPTIVE_OPTICS_V15P/kaleid_modular_repair_20260906/restore_trepan.py",
+      "source_sha256": "22464f65c3a2160b7e6f43a3bf8d0c7d9c21bb354a3c96ee18c0423476f7d0ce",
+      "sha256": "22464f65c3a2160b7e6f43a3bf8d0c7d9c21bb354a3c96ee18c0423476f7d0ce",
+      "bytes": 9179,
+      "transformation": null
+    },
+    {
+      "source": "Adaptive Optics/ADAPTIVE_OPTICS_V15P/kaleid_modular_repair_20260906/restore_kla.py",
+      "destination": "vendor/Adaptive Optics/ADAPTIVE_OPTICS_V15P/kaleid_modular_repair_20260906/restore_kla.py",
+      "source_sha256": "af0fe257130d7109dd4f30b8db4efdac8ec8f5cca6893a4a176e6d6e51bc8961",
+      "sha256": "af0fe257130d7109dd4f30b8db4efdac8ec8f5cca6893a4a176e6d6e51bc8961",
+      "bytes": 7766,
+      "transformation": null
+    },
+    {
+      "source": "Adaptive Optics/ADAPTIVE_OPTICS_V15P/kaleid_modular_repair_20260906/kla_coupled_phase.py",
+      "destination": "vendor/Adaptive Optics/ADAPTIVE_OPTICS_V15P/kaleid_modular_repair_20260906/kla_coupled_phase.py",
+      "source_sha256": "0fe107a3b23178457485ace15ed94d15c9604a4e54f3fba61880a087ad3766b8",
+      "sha256": "4be7b50de52029c38d622263479bfb610039b3398cb2bb584d5f38bfb5d669a7",
+      "bytes": 7265,
+      "transformation": "Portable parent creation only; numerical computation unchanged."
+    },
+    {
+      "source": "Adaptive Optics/ADAPTIVE_OPTICS_V15P/kaleid_modular_repair_20260906/kla_adaptive_joint.py",
+      "destination": "vendor/Adaptive Optics/ADAPTIVE_OPTICS_V15P/kaleid_modular_repair_20260906/kla_adaptive_joint.py",
+      "source_sha256": "cca3544029a40c3e435b310dcfd8707c21cba48cf45f98d929dcc8c14f8fd7cc",
+      "sha256": "42c615bca6f8ecaf9882681bdd981383424f4ae5dd0ac5a0aefa603476b3d6f3",
+      "bytes": 5141,
+      "transformation": "Portable parent creation only; numerical computation unchanged."
+    },
+    {
+      "source": "Adaptive Optics/ADAPTIVE_OPTICS_V15P/kaleid_minimal_v21/run_optical.py",
+      "destination": "vendor/Adaptive Optics/ADAPTIVE_OPTICS_V15P/kaleid_minimal_v21/run_optical.py",
+      "source_sha256": "1267e740cbe8e91720d9d5e46de0e7d74f0998d7dfbf7c8f072b0823217d59f7",
+      "sha256": "1267e740cbe8e91720d9d5e46de0e7d74f0998d7dfbf7c8f072b0823217d59f7",
+      "bytes": 11034,
+      "transformation": null
+    },
+    {
+      "source": "Adaptive Optics/ADAPTIVE_OPTICS_V15P/kaleid_minimal_v21/fit_missing.py",
+      "destination": "vendor/Adaptive Optics/ADAPTIVE_OPTICS_V15P/kaleid_minimal_v21/fit_missing.py",
+      "source_sha256": "5b8a95438576c540b7742753dc8766c319c743dac6fbb5e532fd8b72a496741b",
+      "sha256": "5b8a95438576c540b7742753dc8766c319c743dac6fbb5e532fd8b72a496741b",
+      "bytes": 5818,
+      "transformation": null
+    },
+    {
+      "source": "Adaptive Optics/ADAPTIVE_OPTICS_V15P/canonical_three_phase_universal/budget_scaling/run_kla_budget_scaling.py",
+      "destination": "vendor/Adaptive Optics/ADAPTIVE_OPTICS_V15P/canonical_three_phase_universal/budget_scaling/run_kla_budget_scaling.py",
+      "source_sha256": "137dde4132df75f6786651a51d357ce2d6231f3d3772d49d0695e19a6dd1fe5a",
+      "sha256": "137dde4132df75f6786651a51d357ce2d6231f3d3772d49d0695e19a6dd1fe5a",
+      "bytes": 20167,
+      "transformation": null
+    },
+    {
+      "source": "RAYOPTICS_RESTORE_20260929/dao_mod03/sampling_front3_rear4/optics.py",
+      "destination": "vendor/RAYOPTICS_RESTORE_20260929/dao_mod03/sampling_front3_rear4/optics.py",
+      "source_sha256": "ff873024b9efbe0bba323b4e9d7fed3418a8b35b65b5dcedf9fd090c3a258790",
+      "sha256": "ff873024b9efbe0bba323b4e9d7fed3418a8b35b65b5dcedf9fd090c3a258790",
+      "bytes": 4322,
+      "transformation": null
+    },
+    {
+      "source": "RAYOPTICS_RESTORE_20260929/dao_mod03/sampling_front3_rear4/distribution.py",
+      "destination": "vendor/RAYOPTICS_RESTORE_20260929/dao_mod03/sampling_front3_rear4/distribution.py",
+      "source_sha256": "a2afacdfb86eef5dc309654dcb1434af2589e533c30c6ff67669160fb5644b17",
+      "sha256": "a2afacdfb86eef5dc309654dcb1434af2589e533c30c6ff67669160fb5644b17",
+      "bytes": 2848,
+      "transformation": null
+    },
+    {
+      "source": "RAYOPTICS_RESTORE_20260929/dao_mod03/sampling_front3_rear4/mechanics.py",
+      "destination": "vendor/RAYOPTICS_RESTORE_20260929/dao_mod03/sampling_front3_rear4/mechanics.py",
+      "source_sha256": "66ae7306c923334466cccf582d81e9a2f518de59ebdebf2d656b1d6192b5629b",
+      "sha256": "66ae7306c923334466cccf582d81e9a2f518de59ebdebf2d656b1d6192b5629b",
+      "bytes": 9705,
+      "transformation": null
+    },
+    {
+      "source": "RAYOPTICS_RESTORE_20260929/dao_mod03/sampling_front3_rear4/modular_sensorless_1k_r1/camera.py",
+      "destination": "vendor/RAYOPTICS_RESTORE_20260929/dao_mod03/sampling_front3_rear4/modular_sensorless_1k_r1/camera.py",
+      "source_sha256": "dcc45c61012298ebfa76532609856a9f9a561f92966dceb49646661b43a9dc48",
+      "sha256": "dcc45c61012298ebfa76532609856a9f9a561f92966dceb49646661b43a9dc48",
+      "bytes": 14102,
+      "transformation": null
+    },
+    {
+      "source": "RAYOPTICS_RESTORE_20260929/dao_mod03/sampling_front3_rear4/modular_sensorless_1k_r1/instrument.py",
+      "destination": "vendor/RAYOPTICS_RESTORE_20260929/dao_mod03/sampling_front3_rear4/modular_sensorless_1k_r1/instrument.py",
+      "source_sha256": "39722910c11b80cb78417c4b23ef80cde68f39d48565b6949f03362e8402af90",
+      "sha256": "39722910c11b80cb78417c4b23ef80cde68f39d48565b6949f03362e8402af90",
+      "bytes": 4256,
+      "transformation": null
+    },
+    {
+      "source": "RAYOPTICS_RESTORE_20260929/dao_mod03/sampling_front3_rear4/modular_sensorless_1k_r1/evaluation.py",
+      "destination": "vendor/RAYOPTICS_RESTORE_20260929/dao_mod03/sampling_front3_rear4/modular_sensorless_1k_r1/evaluation.py",
+      "source_sha256": "1e1e9d79e15b0c161e5677505dacb480aee04af2478f5e2a831d69d7173ddbf1",
+      "sha256": "d00c6e5681315c7db0ff6ffb0ddd4883848e4670e525e682729a6a186d5ae92e",
+      "bytes": 5252,
+      "transformation": "Portable parent creation only; numerical computation unchanged."
+    },
+    {
+      "source": "RAYOPTICS_RESTORE_20260929/dao_mod03/sampling_front3_rear4/modular_sensorless_1k_r1/scoring.py",
+      "destination": "vendor/RAYOPTICS_RESTORE_20260929/dao_mod03/sampling_front3_rear4/modular_sensorless_1k_r1/scoring.py",
+      "source_sha256": "b192520a491a5059edef36ba39153c0ef9865e01a24c37deb1503fcdc431f441",
+      "sha256": "b192520a491a5059edef36ba39153c0ef9865e01a24c37deb1503fcdc431f441",
+      "bytes": 894,
+      "transformation": null
+    },
+    {
+      "source": "RAYOPTICS_RESTORE_20260929/dao_mod03/sampling_front3_rear4/modular_sensorless_1k_r1/controller_repair01/repaired_control.py",
+      "destination": "vendor/RAYOPTICS_RESTORE_20260929/dao_mod03/sampling_front3_rear4/modular_sensorless_1k_r1/controller_repair01/repaired_control.py",
+      "source_sha256": "ad8997ae82fb23081a9f21f2d80272d68469af4b8165550b7abda56b6eebaf3b",
+      "sha256": "ad8997ae82fb23081a9f21f2d80272d68469af4b8165550b7abda56b6eebaf3b",
+      "bytes": 5139,
+      "transformation": null
+    },
+    {
+      "source": "RAYOPTICS_RESTORE_20260929/dao_mod03/sampling_front3_rear4/modular_sensorless_1k_r1/controller_repair01/learned_merit.py",
+      "destination": "vendor/RAYOPTICS_RESTORE_20260929/dao_mod03/sampling_front3_rear4/modular_sensorless_1k_r1/controller_repair01/learned_merit.py",
+      "source_sha256": "b4bfbbfd6ec8f7e47ecdb08d21679b4f50c2fc9889235655b7292d95111fe600",
+      "sha256": "b4bfbbfd6ec8f7e47ecdb08d21679b4f50c2fc9889235655b7292d95111fe600",
+      "bytes": 1622,
+      "transformation": null
+    },
+    {
+      "source": "RAYOPTICS_RESTORE_20260929/dao_mod03/sampling_front3_rear4/modular_sensorless_1k_r1/nonlinear_prior01/tensor_optics.py",
+      "destination": "vendor/RAYOPTICS_RESTORE_20260929/dao_mod03/sampling_front3_rear4/modular_sensorless_1k_r1/nonlinear_prior01/tensor_optics.py",
+      "source_sha256": "9162b9ac72427690a13c14d6fc301072af2ee6d97ac451b3340bc1a8150d2e14",
+      "sha256": "9162b9ac72427690a13c14d6fc301072af2ee6d97ac451b3340bc1a8150d2e14",
+      "bytes": 8974,
+      "transformation": null
+    },
+    {
+      "source": "Adaptive Optics/ADAPTIVE_OPTICS_V15P/benchmark_freeform_real_shwfs_residual_120.py",
+      "destination": "vendor/Adaptive Optics/ADAPTIVE_OPTICS_V15P/benchmark_freeform_real_shwfs_residual_120.py",
+      "source_sha256": "af8414f33e19fb8aabf5515b1e137c271556a29b610b1d62d9244febe1ae21db",
+      "sha256": "af8414f33e19fb8aabf5515b1e137c271556a29b610b1d62d9244febe1ae21db",
+      "bytes": 57352,
+      "transformation": null
+    },
+    {
+      "source": "Adaptive Optics/ADAPTIVE_OPTICS_V15P/runtime_bootstrap.py",
+      "destination": "vendor/Adaptive Optics/ADAPTIVE_OPTICS_V15P/runtime_bootstrap.py",
+      "source_sha256": "a5a90059a6a818d3df44e02089f510087f3424f1cb3383881d2b8a1f751ebdd0",
+      "sha256": "a5a90059a6a818d3df44e02089f510087f3424f1cb3383881d2b8a1f751ebdd0",
+      "bytes": 2051,
+      "transformation": null
+    },
+    {
+      "source": "Adaptive Optics/ADAPTIVE_OPTICS_V15P/trepan2p_selected_models.py",
+      "destination": "vendor/Adaptive Optics/ADAPTIVE_OPTICS_V15P/trepan2p_selected_models.py",
+      "source_sha256": "4c182d5db510c3818c21239cf4ea9166346cb55357d9bb73a76d728c5d75ee4b",
+      "sha256": "4c182d5db510c3818c21239cf4ea9166346cb55357d9bb73a76d728c5d75ee4b",
+      "bytes": 3992,
+      "transformation": null
+    },
+    {
+      "source": "Adaptive Optics/ADAPTIVE_OPTICS_V15P/rigid_group_retrain_20260908/common.py",
+      "destination": "vendor/Adaptive Optics/ADAPTIVE_OPTICS_V15P/rigid_group_retrain_20260908/common.py",
+      "source_sha256": "cbaf06c09d174df52f0fd340e0c429b4875a8bf1583e2ec34172703921eb0801",
+      "sha256": "cbaf06c09d174df52f0fd340e0c429b4875a8bf1583e2ec34172703921eb0801",
+      "bytes": 2619,
+      "transformation": null
+    },
+    {
+      "source": "Adaptive Optics/ADAPTIVE_OPTICS_V15P/rigid_group_retrain_20260908/model_factory.py",
+      "destination": "vendor/Adaptive Optics/ADAPTIVE_OPTICS_V15P/rigid_group_retrain_20260908/model_factory.py",
+      "source_sha256": "898980406bc5982f6c67cfef0d3a05a48a246af55d839108cea7b653b284dd21",
+      "sha256": "898980406bc5982f6c67cfef0d3a05a48a246af55d839108cea7b653b284dd21",
+      "bytes": 519,
+      "transformation": null
+    },
+    {
+      "source": "Adaptive Optics/ADAPTIVE_OPTICS_V15P/kaleid_scope_repair_20260906/nikon35.py",
+      "destination": "vendor/Adaptive Optics/ADAPTIVE_OPTICS_V15P/kaleid_scope_repair_20260906/nikon35.py",
+      "source_sha256": "52599a2c3a275959190b8f03d223ed6e90ab60124060895aff440fc806fed731",
+      "sha256": "9b6e8b28eeaaafe88fe310700beb781fd8053f8d3786badc845aff2e0dc162ab",
+      "bytes": 6721,
+      "transformation": "Portable parent creation only; numerical computation unchanged."
+    },
+    {
+      "source": "Adaptive Optics/ADAPTIVE_OPTICS_V15P/rigid_group_retrain_20260908/fast_raytrace.py",
+      "destination": "vendor/Adaptive Optics/ADAPTIVE_OPTICS_V15P/rigid_group_retrain_20260908/fast_raytrace.py",
+      "source_sha256": "430b3dfffcff2fa2d43c0b3ce59eb58c520b8087ebdab8f6bc4b5d4d527afbe6",
+      "sha256": "430b3dfffcff2fa2d43c0b3ce59eb58c520b8087ebdab8f6bc4b5d4d527afbe6",
+      "bytes": 9005,
+      "transformation": null
+    },
+    {
+      "source": "Adaptive Optics/ADAPTIVE_OPTICS_V15P/rigid_group_retrain_20260908/sampling_backend.py",
+      "destination": "vendor/Adaptive Optics/ADAPTIVE_OPTICS_V15P/rigid_group_retrain_20260908/sampling_backend.py",
+      "source_sha256": "d9e5579d61bb3d7e5689417b9cd9de91e926da04f3a2e6f5033030022eddc1fb",
+      "sha256": "d9e5579d61bb3d7e5689417b9cd9de91e926da04f3a2e6f5033030022eddc1fb",
+      "bytes": 1693,
+      "transformation": null
+    },
+    {
+      "source": "Adaptive Optics/ADAPTIVE_OPTICS_V15P/kaleid_scope_repair_20260906/prepare_nikon35.py",
+      "destination": "vendor/Adaptive Optics/ADAPTIVE_OPTICS_V15P/kaleid_scope_repair_20260906/prepare_nikon35.py",
+      "source_sha256": "8238fe9e1fa64991967e6a30bb853498b8a15670cddd4d7a1a8e7d5320fad33c",
+      "sha256": "a34f25b991882c2dc02ed2e6ff38ea7049fc7f3d35659804dcbb63850837177a",
+      "bytes": 9228,
+      "transformation": "Portable parent creation only; numerical computation unchanged."
+    },
+    {
+      "source": "Adaptive Optics/ADAPTIVE_OPTICS_V15P/minimal_ablation_completion/models_and_data.py",
+      "destination": "vendor/Adaptive Optics/ADAPTIVE_OPTICS_V15P/minimal_ablation_completion/models_and_data.py",
+      "source_sha256": "d39dbc4aa674a2ebea1749e8c86c84ccae6e323c2440c53e00e22cab75f11ebc",
+      "sha256": "d39dbc4aa674a2ebea1749e8c86c84ccae6e323c2440c53e00e22cab75f11ebc",
+      "bytes": 11585,
+      "transformation": null
+    },
+    {
+      "source": "Adaptive Optics/kla_full_fov_engine.py",
+      "destination": "vendor/Adaptive Optics/kla_full_fov_engine.py",
+      "source_sha256": "dff29d6ffbb7379024c6ca080ad1863025d8e82b0c182f5fd7f9e363f342e218",
+      "sha256": "dff29d6ffbb7379024c6ca080ad1863025d8e82b0c182f5fd7f9e363f342e218",
+      "bytes": 7147,
+      "transformation": null
+    },
+    {
+      "source": "Adaptive Optics/ADAPTIVE_OPTICS_V15P/OL/run_poppy_dm_system_audit.py",
+      "destination": "vendor/Adaptive Optics/ADAPTIVE_OPTICS_V15P/OL/run_poppy_dm_system_audit.py",
+      "source_sha256": "3c3dbb663b947e565a270b131f5dfa7417b89fe83ce8beffb8a9b974e10fe74c",
+      "sha256": "463d0bf160ed22a73b99a7b1cfddb0c644ed9e286d7041d038a92a2cf4890f20",
+      "bytes": 1470,
+      "transformation": "Extract only unchanged runtime definitions using AST; omit unrelated experiment imports. Runtime adaptation: direct open_roa instead of GUI dispatcher / required original scalar constants and parent creation retained."
+    },
+    {
+      "source": "Adaptive Optics/ADAPTIVE_OPTICS_V15P/kaleid_modular_repair_20260906/train_missing_modules.py",
+      "destination": "vendor/Adaptive Optics/ADAPTIVE_OPTICS_V15P/kaleid_modular_repair_20260906/train_missing_modules.py",
+      "source_sha256": "ac696e7b275cc39bcdcca4ebcbf9a07e4ee00be36302bf01693f88de418eed81",
+      "sha256": "31a5bb74f516cec19b6f685ca767ad3a29bab9ffeb0c876bc5db607c450e5f94",
+      "bytes": 5460,
+      "transformation": "Portable parent creation only; numerical computation unchanged."
+    },
+    {
+      "source": "RAYOPTICS_RESTORE_20260929/dao_mod03/bootstrap.py",
+      "destination": "vendor/RAYOPTICS_RESTORE_20260929/dao_mod03/bootstrap.py",
+      "source_sha256": "924d803d3ea8a420077bfaeaf8a976b385971d1d1814683425b56d8315fd20e3",
+      "sha256": "578abd196860334c49a314cba4b5813bb42a3b1eaec01d612cbfa00a6d9988f0",
+      "bytes": 3235,
+      "transformation": "Portable parent creation only; numerical computation unchanged."
+    },
+    {
+      "source": "RAYOPTICS_RESTORE_20260929/dao_mod03/mod03_adapter.py",
+      "destination": "vendor/RAYOPTICS_RESTORE_20260929/dao_mod03/mod03_adapter.py",
+      "source_sha256": "5236f6cafd53f311324307e16e341563f652824480cbaf4ee2d2efc248ef9931",
+      "sha256": "18078d676d2793abb1ba762c43c0ceda3a1d888e60bfd8d9f60b48d2c697bae2",
+      "bytes": 8482,
+      "transformation": " Runtime adaptation: direct open_roa instead of GUI dispatcher / required original scalar constants and parent creation retained."
+    },
+    {
+      "source": "RAYOPTICS_RESTORE_20260929/patent_comparison/wavefront_check.py",
+      "destination": "vendor/RAYOPTICS_RESTORE_20260929/patent_comparison/wavefront_check.py",
+      "source_sha256": "03034637659da8e96d71ff6dd9c3ff75ac2567152ab3fa3b303bcee793c51bd3",
+      "sha256": "32c16e8e26dbbf5c93c7b36b1eb504d7cbbb492f71f4c3b54e94af445b7e0cce",
+      "bytes": 1661,
+      "transformation": "Extract only unchanged runtime definitions using AST; omit unrelated experiment imports."
+    },
+    {
+      "source": "RAYOPTICS_RESTORE_20260929/dao_mod03/sampling_front3_rear4/modular_sensorless_1k_r1/settings.py",
+      "destination": "vendor/RAYOPTICS_RESTORE_20260929/dao_mod03/sampling_front3_rear4/modular_sensorless_1k_r1/settings.py",
+      "source_sha256": "6cd70c556e5154e3785733196b58f6c94d82ffea3a947738bb9d671b1584fb60",
+      "sha256": "964d8f186c9670fb2d4b43056393fc0bdf8437c1017998cd7de69d0c8104af1e",
+      "bytes": 1994,
+      "transformation": "Portable parent creation only; numerical computation unchanged."
+    },
+    {
+      "source": "RAYOPTICS_RESTORE_20260929/dao_mod03/sampling_front3_rear4/modular_sensorless_1k_r1/control.py",
+      "destination": "vendor/RAYOPTICS_RESTORE_20260929/dao_mod03/sampling_front3_rear4/modular_sensorless_1k_r1/control.py",
+      "source_sha256": "57db3572b83c8f80f5a87c33cb4c2a4f3797ade57ebd7bc332c73f1c38cc9a88",
+      "sha256": "57db3572b83c8f80f5a87c33cb4c2a4f3797ade57ebd7bc332c73f1c38cc9a88",
+      "bytes": 6190,
+      "transformation": null
+    },
+    {
+      "source": "RAYOPTICS_RESTORE_20260929/dao_mod03/sampling_front3_rear4/modular_sensorless_1k_r1/model.py",
+      "destination": "vendor/RAYOPTICS_RESTORE_20260929/dao_mod03/sampling_front3_rear4/modular_sensorless_1k_r1/model.py",
+      "source_sha256": "4ad85c1f6c15400a7629966523f0f7415f0bf16de89848015acb6a676b5931bd",
+      "sha256": "4ad85c1f6c15400a7629966523f0f7415f0bf16de89848015acb6a676b5931bd",
+      "bytes": 1247,
+      "transformation": null
+    },
+    {
+      "source": "RAYOPTICS_RESTORE_20260929/dao_mod03/sampling_front3_rear4/analyze_low_order_wfe.py",
+      "destination": "vendor/RAYOPTICS_RESTORE_20260929/dao_mod03/sampling_front3_rear4/analyze_low_order_wfe.py",
+      "source_sha256": "bd4c7dd3a9b5c5163f6c708e699d75d81c0808dac83d9ae020c3b4ca79f1ed86",
+      "sha256": "bd4c7dd3a9b5c5163f6c708e699d75d81c0808dac83d9ae020c3b4ca79f1ed86",
+      "bytes": 4303,
+      "transformation": null
+    },
+    {
+      "source": "RAYOPTICS_RESTORE_20260929/dao_mod03/sampling_front3_rear4/control.py",
+      "destination": "vendor/RAYOPTICS_RESTORE_20260929/dao_mod03/sampling_front3_rear4/control.py",
+      "source_sha256": "209ed169d813568bb4a645aca01d5df66554cc6eaa4c125be7679ceecf6b7b2f",
+      "sha256": "209ed169d813568bb4a645aca01d5df66554cc6eaa4c125be7679ceecf6b7b2f",
+      "bytes": 7643,
+      "transformation": null
+    },
+    {
+      "source": "Adaptive Optics/ADAPTIVE_OPTICS_V15P/w_bessel_core.py",
+      "destination": "vendor/Adaptive Optics/ADAPTIVE_OPTICS_V15P/w_bessel_core.py",
+      "source_sha256": "5c11f38a5d6fe69a8153b19baa7060bc1128aea43d03abcd103894d829133063",
+      "sha256": "5c11f38a5d6fe69a8153b19baa7060bc1128aea43d03abcd103894d829133063",
+      "bytes": 11580,
+      "transformation": null
+    },
+    {
+      "source": "Adaptive Optics/ADAPTIVE_OPTICS_V15P/train_speckle_cnn.py",
+      "destination": "vendor/Adaptive Optics/ADAPTIVE_OPTICS_V15P/train_speckle_cnn.py",
+      "source_sha256": "ff32633a79239ff83ab9fb3c871728fa790c75318dceba69c5d99859deabfb99",
+      "sha256": "ff32633a79239ff83ab9fb3c871728fa790c75318dceba69c5d99859deabfb99",
+      "bytes": 10866,
+      "transformation": null
+    },
+    {
+      "source": "Adaptive Optics/ADAPTIVE_OPTICS_V15P/eval_1p4na_realistic_v4/run_repaired_small_11case_audit.py",
+      "destination": "vendor/Adaptive Optics/ADAPTIVE_OPTICS_V15P/eval_1p4na_realistic_v4/run_repaired_small_11case_audit.py",
+      "source_sha256": "4f452ada844e8fd8f3d59ab0dc357359a0a6d15ccbc3f6b564492b255381274c",
+      "sha256": "4f452ada844e8fd8f3d59ab0dc357359a0a6d15ccbc3f6b564492b255381274c",
+      "bytes": 27326,
+      "transformation": null
+    },
+    {
+      "source": "Adaptive Optics/kla_catadioptric_engine.py",
+      "destination": "vendor/Adaptive Optics/kla_catadioptric_engine.py",
+      "source_sha256": "3b0e62382afb577fc729cb806be2687e4547cdbab2f0607bf5a02a7fe8c6b738",
+      "sha256": "3b0e62382afb577fc729cb806be2687e4547cdbab2f0607bf5a02a7fe8c6b738",
+      "bytes": 10948,
+      "transformation": null
+    },
+    {
+      "source": "RAYOPTICS_RESTORE_20260929/dao_mod03/sampling_front3_rear4/job_support.py",
+      "destination": "vendor/RAYOPTICS_RESTORE_20260929/dao_mod03/sampling_front3_rear4/job_support.py",
+      "source_sha256": "6a52b54d1e8d3a7a77ee571b9785527a4e7a258c5680a5b7b382e0fc7d26baa5",
+      "sha256": "6a52b54d1e8d3a7a77ee571b9785527a4e7a258c5680a5b7b382e0fc7d26baa5",
+      "bytes": 5084,
+      "transformation": null
+    },
+    {
+      "source": "Adaptive Optics/ADAPTIVE_OPTICS_V15P/eval_1p4na_realistic_v4/corrected_absolute_metric.py",
+      "destination": "vendor/Adaptive Optics/ADAPTIVE_OPTICS_V15P/eval_1p4na_realistic_v4/corrected_absolute_metric.py",
+      "source_sha256": "f3a3b49ed726e883c4d1a066ab1898f76cbf75cc75808017949804ee2f4ba505",
+      "sha256": "f3a3b49ed726e883c4d1a066ab1898f76cbf75cc75808017949804ee2f4ba505",
+      "bytes": 5191,
+      "transformation": null
+    },
+    {
+      "source": "Adaptive Optics/ADAPTIVE_OPTICS_V15P/eval_1p4na_hybrid/v3_corrected/run_corrected_highna_validation.py",
+      "destination": "vendor/Adaptive Optics/ADAPTIVE_OPTICS_V15P/eval_1p4na_hybrid/v3_corrected/run_corrected_highna_validation.py",
+      "source_sha256": "1c77ceab18fb542ef1700642415721a0bc4ad5c522a6ef317cb0ee58dad8c1c5",
+      "sha256": "1c77ceab18fb542ef1700642415721a0bc4ad5c522a6ef317cb0ee58dad8c1c5",
+      "bytes": 42156,
+      "transformation": null
+    },
+    {
+      "source": "Adaptive Optics/ADAPTIVE_OPTICS_V15P/eval_1p4na_hybrid/model_repair_scratch/validated_highna_model.py",
+      "destination": "vendor/Adaptive Optics/ADAPTIVE_OPTICS_V15P/eval_1p4na_hybrid/model_repair_scratch/validated_highna_model.py",
+      "source_sha256": "3a1cee7255882951edf3e03dc503eb8d13c36a0e2b1e2a6b7f227aa626d511fc",
+      "sha256": "3a1cee7255882951edf3e03dc503eb8d13c36a0e2b1e2a6b7f227aa626d511fc",
+      "bytes": 5066,
+      "transformation": null
+    },
+    {
+      "source": "Adaptive Optics/ADAPTIVE_OPTICS_V15P/eval_1p4na_hybrid/model_repair_scratch/probe_forward_model.py",
+      "destination": "vendor/Adaptive Optics/ADAPTIVE_OPTICS_V15P/eval_1p4na_hybrid/model_repair_scratch/probe_forward_model.py",
+      "source_sha256": "2717928f7edecbf5d40604798d539238e7550424e25828d99e3d74bae2e878af",
+      "sha256": "2717928f7edecbf5d40604798d539238e7550424e25828d99e3d74bae2e878af",
+      "bytes": 10268,
+      "transformation": null
+    },
+    {
+      "source": "Adaptive Optics/ADAPTIVE_OPTICS_V15P/artifacts/diffuser_mask.npy",
+      "destination": "vendor/Adaptive Optics/ADAPTIVE_OPTICS_V15P/artifacts/diffuser_mask.npy",
+      "source_sha256": "bca041eaf5c8896a0e587193761640cd5aed849bee3bbbf1af144647e5c64800",
+      "sha256": "bca041eaf5c8896a0e587193761640cd5aed849bee3bbbf1af144647e5c64800",
+      "bytes": 131200,
+      "transformation": null
+    },
+    {
+      "source": "Adaptive Optics/ADAPTIVE_OPTICS_V15P/eval_1p4na_hybrid/model_repair_scratch/Nikon_1p4NA_source_copy.zmx",
+      "destination": "vendor/Adaptive Optics/ADAPTIVE_OPTICS_V15P/eval_1p4na_hybrid/model_repair_scratch/Nikon_1p4NA_source_copy.zmx",
+      "source_sha256": "dab1d293b6b778b023c826863483aaeb512b77a7491918e1fbc39309292dbb67",
+      "sha256": "dab1d293b6b778b023c826863483aaeb512b77a7491918e1fbc39309292dbb67",
+      "bytes": 55736,
+      "transformation": null
+    },
+    {
+      "source": "Adaptive Optics/ADAPTIVE_OPTICS_V15P/eval_1p4na_realistic_v4/center_bias.json",
+      "destination": "vendor/Adaptive Optics/ADAPTIVE_OPTICS_V15P/eval_1p4na_realistic_v4/center_bias.json",
+      "source_sha256": "58db6819654a85ed10aefebd6616f66dc85e268243875e28e9a36bd14bcf093b",
+      "sha256": "58db6819654a85ed10aefebd6616f66dc85e268243875e28e9a36bd14bcf093b",
+      "bytes": 14741,
+      "transformation": null
+    },
+    {
+      "source": "Adaptive Optics/ADAPTIVE_OPTICS_V15P/eval_1p4na_realistic_v4/center_bias.npz",
+      "destination": "vendor/Adaptive Optics/ADAPTIVE_OPTICS_V15P/eval_1p4na_realistic_v4/center_bias.npz",
+      "source_sha256": "5f50e4384f38a101df87d7a5856fb0f72cd121e0b69871153f1e93a8bbba33e9",
+      "sha256": "5f50e4384f38a101df87d7a5856fb0f72cd121e0b69871153f1e93a8bbba33e9",
+      "bytes": 3555,
+      "transformation": null
+    },
+    {
+      "source": "Adaptive Optics/ADAPTIVE_OPTICS_V15P/rigid_group_retrain_20260908/active_manifest.json",
+      "destination": "vendor/Adaptive Optics/ADAPTIVE_OPTICS_V15P/rigid_group_retrain_20260908/active_manifest.json",
+      "source_sha256": "6638206dc37ef2670b584142ac46fbc9ac2279988a374ec54f9896d83c85fffc",
+      "sha256": "6638206dc37ef2670b584142ac46fbc9ac2279988a374ec54f9896d83c85fffc",
+      "bytes": 18334,
+      "transformation": null
+    },
+    {
+      "source": "Adaptive Optics/ADAPTIVE_OPTICS_V15P/rigid_group_retrain_20260908/nikon_g123_protocol.json",
+      "destination": "vendor/Adaptive Optics/ADAPTIVE_OPTICS_V15P/rigid_group_retrain_20260908/nikon_g123_protocol.json",
+      "source_sha256": "2a8f14074834105877d025e7ccb6d9be0c30cebc80b9575ea4c824976aad1cd3",
+      "sha256": "2a8f14074834105877d025e7ccb6d9be0c30cebc80b9575ea4c824976aad1cd3",
+      "bytes": 575,
+      "transformation": null
+    },
+    {
+      "source": "Adaptive Optics/ADAPTIVE_OPTICS_V15P/rigid_group_retrain_20260908/results/nikon_capture_calibration35.npz",
+      "destination": "vendor/Adaptive Optics/ADAPTIVE_OPTICS_V15P/rigid_group_retrain_20260908/results/nikon_capture_calibration35.npz",
+      "source_sha256": "f10fe12ac753a62a5b4e0d3851ee3f876147f995e683fea23d188774062ebada",
+      "sha256": "f10fe12ac753a62a5b4e0d3851ee3f876147f995e683fea23d188774062ebada",
+      "bytes": 46608,
+      "transformation": null
+    },
+    {
+      "source": "Adaptive Optics/ADAPTIVE_OPTICS_V15P/rigid_group_retrain_20260908/results/nikon_center_calibration35.npz",
+      "destination": "vendor/Adaptive Optics/ADAPTIVE_OPTICS_V15P/rigid_group_retrain_20260908/results/nikon_center_calibration35.npz",
+      "source_sha256": "d7a16ff510c23770cb80cb4132395fc1a0e966f38a2c1ef0e4d32e72e3a5f982",
+      "sha256": "d7a16ff510c23770cb80cb4132395fc1a0e966f38a2c1ef0e4d32e72e3a5f982",
+      "bytes": 46148,
+      "transformation": null
+    },
+    {
+      "source": "Adaptive Optics/ADAPTIVE_OPTICS_V15P/kaleid_modular_repair_20260906/results/kla_phase/calibration.npz",
+      "destination": "vendor/Adaptive Optics/ADAPTIVE_OPTICS_V15P/kaleid_modular_repair_20260906/results/kla_phase/calibration.npz",
+      "source_sha256": "275483038644d90a60b5f1b3ecfc095b0511c518dd1b070aa1018bd62437fc16",
+      "sha256": "275483038644d90a60b5f1b3ecfc095b0511c518dd1b070aa1018bd62437fc16",
+      "bytes": 24236,
+      "transformation": null
+    },
+    {
+      "source": "RAYOPTICS_RESTORE_20260929/dao_mod03/sampling_front3_rear4/modular_sensorless_1k_r1/protocol.json",
+      "destination": "vendor/RAYOPTICS_RESTORE_20260929/dao_mod03/sampling_front3_rear4/modular_sensorless_1k_r1/protocol.json",
+      "source_sha256": "e44ef6cf1de540ebfc8b7e7885822c2b64be603c4c552d38b5098fe4208e972e",
+      "sha256": "e44ef6cf1de540ebfc8b7e7885822c2b64be603c4c552d38b5098fe4208e972e",
+      "bytes": 8049,
+      "transformation": null
+    },
+    {
+      "source": "RAYOPTICS_RESTORE_20260929/dao_mod03/sampling_front3_rear4/modular_sensorless_1k_r1/results/calibration.npz",
+      "destination": "vendor/RAYOPTICS_RESTORE_20260929/dao_mod03/sampling_front3_rear4/modular_sensorless_1k_r1/results/calibration.npz",
+      "source_sha256": "504b972ad1bc9392a41e80ba3dd9845985a65206617a061ea7e79b533238a9ea",
+      "sha256": "504b972ad1bc9392a41e80ba3dd9845985a65206617a061ea7e79b533238a9ea",
+      "bytes": 14855484,
+      "transformation": null
+    },
+    {
+      "source": "RAYOPTICS_RESTORE_20260929/dao_mod03/sampling_front3_rear4/modular_sensorless_1k_r1/results/measured_response.npz",
+      "destination": "vendor/RAYOPTICS_RESTORE_20260929/dao_mod03/sampling_front3_rear4/modular_sensorless_1k_r1/results/measured_response.npz",
+      "source_sha256": "70c8301c90dc401a63b777fc4b1798a3a2e1333e89410f1de433cb8c12144093",
+      "sha256": "70c8301c90dc401a63b777fc4b1798a3a2e1333e89410f1de433cb8c12144093",
+      "bytes": 3765254,
+      "transformation": null
+    },
+    {
+      "source": "RAYOPTICS_RESTORE_20260929/dao_mod03/sampling_front3_rear4/modular_sensorless_1k_r1/calibration_probe01/candidate_response.npz",
+      "destination": "vendor/RAYOPTICS_RESTORE_20260929/dao_mod03/sampling_front3_rear4/modular_sensorless_1k_r1/calibration_probe01/candidate_response.npz",
+      "source_sha256": "1b6f107bcb11bfc5a26b658d2a52aa19f676825dad8fe8e8ec9a3d47e7dd74e9",
+      "sha256": "1b6f107bcb11bfc5a26b658d2a52aa19f676825dad8fe8e8ec9a3d47e7dd74e9",
+      "bytes": 3768193,
+      "transformation": null
+    },
+    {
+      "source": "RAYOPTICS_RESTORE_20260929/design_archive/mod03/US07199938-1-mod03.zmx",
+      "destination": "vendor/RAYOPTICS_RESTORE_20260929/design_archive/mod03/US07199938-1-mod03.zmx",
+      "source_sha256": "335a5125f0e42bcbf48e6e215fd2be6431cecf8f8bd08ad5dc7ca4f883b1bb1d",
+      "sha256": "335a5125f0e42bcbf48e6e215fd2be6431cecf8f8bd08ad5dc7ca4f883b1bb1d",
+      "bytes": 51394,
+      "transformation": null
+    },
+    {
+      "source": "RAYOPTICS_RESTORE_20260929/design_archive/mod03/US07199938-1-mod03.roa",
+      "destination": "vendor/RAYOPTICS_RESTORE_20260929/design_archive/mod03/US07199938-1-mod03.roa",
+      "source_sha256": "2057f38710893a3f5640be744329d9784f053abb4bd8913983327a95d527f4cd",
+      "sha256": "2057f38710893a3f5640be744329d9784f053abb4bd8913983327a95d527f4cd",
+      "bytes": 339704,
+      "transformation": null
+    },
+    {
+      "source": "RAYOPTICS_RESTORE_20260929/design_archive/mod03/evidence/native_dense.json",
+      "destination": "vendor/RAYOPTICS_RESTORE_20260929/design_archive/mod03/evidence/native_dense.json",
+      "source_sha256": "80631cba835fb5e71bc8dcc4e2d570b62b79af4e8691ca337ea783dc273ad781",
+      "sha256": "80631cba835fb5e71bc8dcc4e2d570b62b79af4e8691ca337ea783dc273ad781",
+      "bytes": 6444,
+      "transformation": null
+    },
+    {
+      "source": "RAYOPTICS_RESTORE_20260929/dao_mod03/sampling_front3_rear4/coordinated_7k_20261006/training/front/candidate.pt",
+      "destination": "vendor/RAYOPTICS_RESTORE_20260929/dao_mod03/sampling_front3_rear4/coordinated_7k_20261006/training/front/candidate.pt",
+      "source_sha256": "0f796605429c30cf2ba6833e03ab5c085b927a8a367ff5b85cc1289408f851c3",
+      "sha256": "0f796605429c30cf2ba6833e03ab5c085b927a8a367ff5b85cc1289408f851c3",
+      "bytes": 6617350,
+      "transformation": null
+    },
+    {
+      "source": "RAYOPTICS_RESTORE_20260929/dao_mod03/sampling_front3_rear4/coordinated_7k_20261006/training/rear/candidate.pt",
+      "destination": "vendor/RAYOPTICS_RESTORE_20260929/dao_mod03/sampling_front3_rear4/coordinated_7k_20261006/training/rear/candidate.pt",
+      "source_sha256": "21aa66903864955fafe6daee99c5a851100c26a15a391172cc0d32fa47f30a97",
+      "sha256": "21aa66903864955fafe6daee99c5a851100c26a15a391172cc0d32fa47f30a97",
+      "bytes": 6711670,
+      "transformation": null
+    },
+    {
+      "source": "RAYOPTICS_RESTORE_20260929/dao_mod03/sampling_front3_rear4/modular_sensorless_4k_r1/training/nonlinear_candidate/front_arch_a.pt",
+      "destination": "vendor/RAYOPTICS_RESTORE_20260929/dao_mod03/sampling_front3_rear4/modular_sensorless_4k_r1/training/nonlinear_candidate/front_arch_a.pt",
+      "source_sha256": "9ebda4fe0d13cd9aad80be5dfbfcd0e3ebcf966af65b6a05acae2ec14d4af181",
+      "sha256": "9ebda4fe0d13cd9aad80be5dfbfcd0e3ebcf966af65b6a05acae2ec14d4af181",
+      "bytes": 3107140,
+      "transformation": null
+    },
+    {
+      "source": "RAYOPTICS_RESTORE_20260929/dao_mod03/sampling_front3_rear4/modular_sensorless_4k_r1/rear10_revision01/training/nonlinear_candidate/rear_arch_a.pt",
+      "destination": "vendor/RAYOPTICS_RESTORE_20260929/dao_mod03/sampling_front3_rear4/modular_sensorless_4k_r1/rear10_revision01/training/nonlinear_candidate/rear_arch_a.pt",
+      "source_sha256": "61072a4448d6afe49ef99d1055673f25f870b823acf887ef88717377dd623fa8",
+      "sha256": "61072a4448d6afe49ef99d1055673f25f870b823acf887ef88717377dd623fa8",
+      "bytes": 3193848,
+      "transformation": null
+    },
+    {
+      "source": "Adaptive Optics/ADAPTIVE_OPTICS_V15P/nikon_coordinated_center_20261005/candidate.pt",
+      "destination": "vendor/Adaptive Optics/ADAPTIVE_OPTICS_V15P/nikon_coordinated_center_20261005/candidate.pt",
+      "source_sha256": "01a7e0f2043954e224a60f6c6013d0f521ae35dd81d0d8fbf307eaee148ddedc",
+      "sha256": "01a7e0f2043954e224a60f6c6013d0f521ae35dd81d0d8fbf307eaee148ddedc",
+      "bytes": 5235588,
+      "transformation": null
+    },
+    {
+      "source": "Adaptive Optics/ADAPTIVE_OPTICS_V15P/rigid_group_retrain_20260908/checkpoints/nikon_G1_arch_a.pt",
+      "destination": "vendor/Adaptive Optics/ADAPTIVE_OPTICS_V15P/rigid_group_retrain_20260908/checkpoints/nikon_G1_arch_a.pt",
+      "source_sha256": "127795bb4ede769687030fa678a8afd3e9e7c8068d17a5ddbe9c68048c06f398",
+      "sha256": "127795bb4ede769687030fa678a8afd3e9e7c8068d17a5ddbe9c68048c06f398",
+      "bytes": 1314381,
+      "transformation": null
+    },
+    {
+      "source": "Adaptive Optics/ADAPTIVE_OPTICS_V15P/rigid_group_retrain_20260908/checkpoints/nikon_G2_arch_a.pt",
+      "destination": "vendor/Adaptive Optics/ADAPTIVE_OPTICS_V15P/rigid_group_retrain_20260908/checkpoints/nikon_G2_arch_a.pt",
+      "source_sha256": "d184e8e60b14f846dc0c87da4ca23fa7a4476c5c4cd91083636ec08c1cd08ca3",
+      "sha256": "d184e8e60b14f846dc0c87da4ca23fa7a4476c5c4cd91083636ec08c1cd08ca3",
+      "bytes": 1314381,
+      "transformation": null
+    },
+    {
+      "source": "Adaptive Optics/ADAPTIVE_OPTICS_V15P/rigid_group_retrain_20260908/checkpoints/nikon_G3_arch_a.pt",
+      "destination": "vendor/Adaptive Optics/ADAPTIVE_OPTICS_V15P/rigid_group_retrain_20260908/checkpoints/nikon_G3_arch_a.pt",
+      "source_sha256": "c65ad4ce3fa5f37833fdc2da99a65ccb396bd5e12c814ca84731ae846db3a5fc",
+      "sha256": "c65ad4ce3fa5f37833fdc2da99a65ccb396bd5e12c814ca84731ae846db3a5fc",
+      "bytes": 1177765,
+      "transformation": null
+    },
+    {
+      "source": "Adaptive Optics/ADAPTIVE_OPTICS_V15P/rigid_group_retrain_20260908/checkpoints/trepan2p_front_arch_a.pt",
+      "destination": "vendor/Adaptive Optics/ADAPTIVE_OPTICS_V15P/rigid_group_retrain_20260908/checkpoints/trepan2p_front_arch_a.pt",
+      "source_sha256": "22e4da93a52ece281ad2dac109f6ad2cd0692a88b2926c5fe906cc2d881a7a23",
+      "sha256": "22e4da93a52ece281ad2dac109f6ad2cd0692a88b2926c5fe906cc2d881a7a23",
+      "bytes": 1414977,
+      "transformation": null
+    },
+    {
+      "source": "Adaptive Optics/ADAPTIVE_OPTICS_V15P/rigid_group_retrain_20260908/checkpoints/trepan2p_rear_arch_a.pt",
+      "destination": "vendor/Adaptive Optics/ADAPTIVE_OPTICS_V15P/rigid_group_retrain_20260908/checkpoints/trepan2p_rear_arch_a.pt",
+      "source_sha256": "bbf01c1499ffcdf9f6de33c9c194b490384dffbc4b0bf6859022dc0d5939f59e",
+      "sha256": "bbf01c1499ffcdf9f6de33c9c194b490384dffbc4b0bf6859022dc0d5939f59e",
+      "bytes": 1414977,
+      "transformation": null
+    },
+    {
+      "source": "Adaptive Optics/ADAPTIVE_OPTICS_V15P/canonical_three_phase_universal/checkpoints/kla_arch_a.pt",
+      "destination": "vendor/Adaptive Optics/ADAPTIVE_OPTICS_V15P/canonical_three_phase_universal/checkpoints/kla_arch_a.pt",
+      "source_sha256": "6b1a30180f419317c1ee5f22d1fae9f3d66cb49bfe13d3810c3d1afc3468bee7",
+      "sha256": "6b1a30180f419317c1ee5f22d1fae9f3d66cb49bfe13d3810c3d1afc3468bee7",
+      "bytes": 1346509,
+      "transformation": null
+    },
+    {
+      "source": "Adaptive Optics/ADAPTIVE_OPTICS_V15P/kaleid_modular_repair_20260906/checkpoints/kla_module3_arch_a.pt",
+      "destination": "vendor/Adaptive Optics/ADAPTIVE_OPTICS_V15P/kaleid_modular_repair_20260906/checkpoints/kla_module3_arch_a.pt",
+      "source_sha256": "3948092a000fb9b7847f01430928e86f3bf30fe91bc5e7c281fc9bed6f01c5dc",
+      "sha256": "3948092a000fb9b7847f01430928e86f3bf30fe91bc5e7c281fc9bed6f01c5dc",
+      "bytes": 1346829,
+      "transformation": null
+    },
+    {
+      "source": "Adaptive Optics/ADAPTIVE_OPTICS_V15P/kaleid_modular_repair_20260906/checkpoints/kla_module4_arch_a.pt",
+      "destination": "vendor/Adaptive Optics/ADAPTIVE_OPTICS_V15P/kaleid_modular_repair_20260906/checkpoints/kla_module4_arch_a.pt",
+      "source_sha256": "d9aa9f2a1e89bf657a6fe1dac0a4b203a17d01d5dbc6a0594485acdeeb9db649",
+      "sha256": "d9aa9f2a1e89bf657a6fe1dac0a4b203a17d01d5dbc6a0594485acdeeb9db649",
+      "bytes": 1278489,
+      "transformation": null
+    },
+    {
+      "source": "Adaptive Optics/ADAPTIVE_OPTICS_V15P/canonical_three_phase_universal/checkpoints/kla_arch_a_7k_warmstart.pt",
+      "destination": "vendor/Adaptive Optics/ADAPTIVE_OPTICS_V15P/canonical_three_phase_universal/checkpoints/kla_arch_a_7k_warmstart.pt",
+      "source_sha256": "1da8e66a485b82878812f6d28ae2d547522b9229287d3995f7cd68975879b80d",
+      "sha256": "1da8e66a485b82878812f6d28ae2d547522b9229287d3995f7cd68975879b80d",
+      "bytes": 1346637,
+      "transformation": null
+    },
+    {
+      "source": "Adaptive Optics/ADAPTIVE_OPTICS_V15P/other_paths_differentiable_20261001/trepan_front/candidate.pt",
+      "destination": "vendor/Adaptive Optics/ADAPTIVE_OPTICS_V15P/other_paths_differentiable_20261001/trepan_front/candidate.pt",
+      "source_sha256": "8d9858f7781601d4ef33b46be243f2e3b1626ea4f31941d821b87e0e9b760953",
+      "sha256": "8d9858f7781601d4ef33b46be243f2e3b1626ea4f31941d821b87e0e9b760953",
+      "bytes": 1415425,
+      "transformation": null
+    },
+    {
+      "source": "Adaptive Optics/ADAPTIVE_OPTICS_V15P/other_paths_differentiable_20261001/trepan_rear/candidate.pt",
+      "destination": "vendor/Adaptive Optics/ADAPTIVE_OPTICS_V15P/other_paths_differentiable_20261001/trepan_rear/candidate.pt",
+      "source_sha256": "50f49d1b190c8a823238adef0616b3143067da0e9095a48ff2701c315972bfd6",
+      "sha256": "50f49d1b190c8a823238adef0616b3143067da0e9095a48ff2701c315972bfd6",
+      "bytes": 1415425,
+      "transformation": null
+    },
+    {
+      "source": "Adaptive Optics/ADAPTIVE_OPTICS_V15P/other_paths_differentiable_20261001/kla_module2/candidate.pt",
+      "destination": "vendor/Adaptive Optics/ADAPTIVE_OPTICS_V15P/other_paths_differentiable_20261001/kla_module2/candidate.pt",
+      "source_sha256": "f22be5e829e87f27f5baf9be1373d3dd54210113c2586a08b993f7647e3d0a03",
+      "sha256": "f22be5e829e87f27f5baf9be1373d3dd54210113c2586a08b993f7647e3d0a03",
+      "bytes": 1347021,
+      "transformation": null
+    },
+    {
+      "source": "Adaptive Optics/ADAPTIVE_OPTICS_V15P/other_paths_differentiable_20261001/kla_module3/candidate.pt",
+      "destination": "vendor/Adaptive Optics/ADAPTIVE_OPTICS_V15P/other_paths_differentiable_20261001/kla_module3/candidate.pt",
+      "source_sha256": "6b7ecf6a714d96bfbbc994e2d6cd241a9047ffbb08feb1804247dfa1fb9fdc69",
+      "sha256": "6b7ecf6a714d96bfbbc994e2d6cd241a9047ffbb08feb1804247dfa1fb9fdc69",
+      "bytes": 1347341,
+      "transformation": null
+    },
+    {
+      "source": "Adaptive Optics/ADAPTIVE_OPTICS_V15P/other_paths_differentiable_20261001/kla_module4/candidate.pt",
+      "destination": "vendor/Adaptive Optics/ADAPTIVE_OPTICS_V15P/other_paths_differentiable_20261001/kla_module4/candidate.pt",
+      "source_sha256": "6949755a3962393fab17f8fe1bbe19774348022b46afac23dc0943d9e0f5c65f",
+      "sha256": "6949755a3962393fab17f8fe1bbe19774348022b46afac23dc0943d9e0f5c65f",
+      "bytes": 1279001,
+      "transformation": null
+    },
+    {
+      "source": "Adaptive Optics/artifacts/dataset_module2_5dof.npz",
+      "destination": "vendor/Adaptive Optics/artifacts/dataset_module2_5dof.npz",
+      "source_sha256": "1f219e3c6607d8bff5bd6c6e6dd97a0b5dbb4d04d9436baea43dc251504edabd",
+      "sha256": "d137001436a25e1c24e202aec9ea33ca581e6784ff4e3669b4acacbe38fb96d2",
+      "bytes": 571,
+      "transformation": "Retain only original first eleven case labels required by KLA Condition C; omit training frames and all other samples."
+    }
+  ],
+  "omitted": "Historical training observations, epoch/optimizer checkpoints, environments and unrelated SETSUNET research."
+}

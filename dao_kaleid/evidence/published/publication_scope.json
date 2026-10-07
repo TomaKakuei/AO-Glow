@@ -1,0 +1,13 @@
+{
+  "formal_model": "Kaleid",
+  "internal_checkpoint_key": "arch_a",
+  "published_rows": 154,
+  "result_source_sha256": "14880f3d2a3d080f8f86dd49b07c1f4a0b78aee0bbdcf592991ade375d299eae",
+  "selection": "Formal-model and retained method rows from the existing cohorts, with a new standard one-command TSVD rerun on the same cohorts.",
+  "excluded_from_manuscript": [
+    "Network-variant comparisons",
+    "Additional Nikon stress families"
+  ],
+  "excluded_evidence_preserved_at": "C:\\Users\\Ar114514\\OneDrive\\\u6587\u6863\\_UCSB\\ECE\\Adaptive Optics\\ADAPTIVE_OPTICS_V15P\\OL\\DAO_Universal_v31_Trepan_Range_Stress",
+  "naomi": "Unmodified 16-panel illustration from the separate archived image-propagation calculation."
+}

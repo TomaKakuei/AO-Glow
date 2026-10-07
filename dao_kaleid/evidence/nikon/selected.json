@@ -1,0 +1,76 @@
+{
+  "epoch": 49,
+  "validation": {
+    "overall": {
+      "count": 6000,
+      "passes": 5282,
+      "recovery_rate": 0.8803333333333333,
+      "invalid_count": 0,
+      "center_mean": 0.051623738959978197,
+      "center_median": 0.04715058011656696,
+      "center_p90": 0.0729931659385622,
+      "edge_difference_mean": 1.9673811488755497,
+      "edge_absolute_pttd_mean": 14.33339831616696
+    },
+    "groups": {
+      "G1": {
+        "count": 2000,
+        "passes": 1689,
+        "recovery_rate": 0.8445,
+        "invalid_count": 0,
+        "center_mean": 0.0551638393323914,
+        "center_median": 0.04993154382449918,
+        "center_p90": 0.07844805928969285,
+        "edge_difference_mean": 2.124874467277467,
+        "edge_absolute_pttd_mean": 14.301327355221458
+      },
+      "G2": {
+        "count": 2000,
+        "passes": 1775,
+        "recovery_rate": 0.8875,
+        "invalid_count": 0,
+        "center_mean": 0.05160534133636065,
+        "center_median": 0.04686599244678395,
+        "center_p90": 0.07122961560293217,
+        "edge_difference_mean": 1.9563047351604863,
+        "edge_absolute_pttd_mean": 14.370429183487046
+      },
+      "G3": {
+        "count": 2000,
+        "passes": 1818,
+        "recovery_rate": 0.909,
+        "invalid_count": 0,
+        "center_mean": 0.048102036211182544,
+        "center_median": 0.04406636728429113,
+        "center_p90": 0.06826014918604376,
+        "edge_difference_mean": 1.8209642441886953,
+        "edge_absolute_pttd_mean": 14.328438409792382
+      }
+    },
+    "old_source": {
+      "count": 3000,
+      "passes": 2630,
+      "recovery_rate": 0.8766666666666667,
+      "invalid_count": 0,
+      "center_mean": 0.05175972008122716,
+      "center_median": 0.0471865338975616,
+      "center_p90": 0.07338831579637108,
+      "edge_difference_mean": 1.9694709327157562,
+      "edge_absolute_pttd_mean": 14.33819390745852
+    },
+    "new_source": {
+      "count": 3000,
+      "passes": 2652,
+      "recovery_rate": 0.884,
+      "invalid_count": 0,
+      "center_mean": 0.051487757838729234,
+      "center_median": 0.047097601859301216,
+      "center_p90": 0.07260094663005519,
+      "edge_difference_mean": 1.9652913650353434,
+      "edge_absolute_pttd_mean": 14.328602724875404
+    }
+  },
+  "path": "C:\\Users\\arthu\\OneDrive\\文档\\_UCSB\\ECE\\Adaptive Optics\\ADAPTIVE_OPTICS_V15P\\nikon_coordinated_center_20261005\\candidate.pt",
+  "sha256": "01a7e0f2043954e224a60f6c6013d0f521ae35dd81d0d8fbf307eaee148ddedc",
+  "selection_rule": "highest full6000 center WRMS<0.07 rate; tie lowest centerP90, then mean"
+}

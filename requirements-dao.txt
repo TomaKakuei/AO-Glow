@@ -1,0 +1,17 @@
+# Headless core. PyTorch is already installed on the target server.
+# Install rayoptics/opticalglass separately with --no-deps (see requirements-dao-optics.txt)
+# so their unused Qt/notebook extras are not pulled into a headless server.
+numpy==2.4.3
+scipy==1.17.1
+matplotlib==3.10.8
+pandas==3.0.2
+anytree==2.13.0
+parsimonious==0.11.0
+transforms3d==0.4.2
+requests==2.33.1
+packaging==26.0
+json_tricks==3.17.3
+deprecation==2.1.0
+openpyxl==3.1.5
+xlrd==2.0.2
+PyYAML>=6.0.2,<7

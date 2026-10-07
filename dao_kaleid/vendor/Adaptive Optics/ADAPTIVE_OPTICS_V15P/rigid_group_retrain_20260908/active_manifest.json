@@ -1,0 +1,240 @@
+{
+  "state": "ready",
+  "version": "nikon_g123_20260908",
+  "legacy_data_reused": false,
+  "trepan2p": {
+    "front_checkpoint": "C:\\Users\\Ar114514\\OneDrive\\文档\\_UCSB\\ECE\\Adaptive Optics\\ADAPTIVE_OPTICS_V15P\\rigid_group_retrain_20260908\\checkpoints\\trepan2p_front_arch_a.pt",
+    "rear_checkpoint": "C:\\Users\\Ar114514\\OneDrive\\文档\\_UCSB\\ECE\\Adaptive Optics\\ADAPTIVE_OPTICS_V15P\\rigid_group_retrain_20260908\\checkpoints\\trepan2p_rear_arch_a.pt"
+  },
+  "nikon": {
+    "group_checkpoints": {
+      "G1": "C:\\Users\\Ar114514\\OneDrive\\文档\\_UCSB\\ECE\\Adaptive Optics\\ADAPTIVE_OPTICS_V15P\\rigid_group_retrain_20260908\\checkpoints\\nikon_G1_arch_a.pt",
+      "G2": "C:\\Users\\Ar114514\\OneDrive\\文档\\_UCSB\\ECE\\Adaptive Optics\\ADAPTIVE_OPTICS_V15P\\rigid_group_retrain_20260908\\checkpoints\\nikon_G2_arch_a.pt",
+      "G3": "C:\\Users\\Ar114514\\OneDrive\\文档\\_UCSB\\ECE\\Adaptive Optics\\ADAPTIVE_OPTICS_V15P\\rigid_group_retrain_20260908\\checkpoints\\nikon_G3_arch_a.pt"
+    },
+    "groups": {
+      "G1": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "G2": [
+        "L4",
+        "L5",
+        "L6"
+      ],
+      "G3": [
+        "L7p"
+      ]
+    },
+    "sampling_mode": "joint_context",
+    "capture_calibration": "C:\\Users\\Ar114514\\OneDrive\\文档\\_UCSB\\ECE\\Adaptive Optics\\ADAPTIVE_OPTICS_V15P\\rigid_group_retrain_20260908\\results\\nikon_capture_calibration35.npz",
+    "center_calibration": "C:\\Users\\Ar114514\\OneDrive\\文档\\_UCSB\\ECE\\Adaptive Optics\\ADAPTIVE_OPTICS_V15P\\rigid_group_retrain_20260908\\results\\nikon_center_calibration35.npz",
+    "smoke_dataset": "C:\\Users\\Ar114514\\OneDrive\\文档\\_UCSB\\ECE\\Adaptive Optics\\ADAPTIVE_OPTICS_V15P\\rigid_group_retrain_20260908\\data\\nikon_G1_joint_context\\batch_0000.npz"
+  },
+  "source_hashes": {
+    "trepan_geometry": "93fb3230ead6db9b8de90b7d3bef498faefbea42b695f7aaaa29d937cafb60c1",
+    "nikon_sampler": "1a1775cdac295a5b9748920cdeacfca2bb3ffbf568292a548c7b6c056551b880",
+    "nikon_geometry": "1c77ceab18fb542ef1700642415721a0bc4ad5c522a6ef317cb0ee58dad8c1c5"
+  },
+  "sampling_backend": {
+    "nikon": "batch_current_rayoptics_path",
+    "trepan": "batch_current_rayoptics_path",
+    "backend_sha256": "430b3dfffcff2fa2d43c0b3ce59eb58c520b8087ebdab8f6bc4b5d4d527afbe6",
+    "validation_directory": "C:\\Users\\Ar114514\\OneDrive\\文档\\_UCSB\\ECE\\Adaptive Optics\\ADAPTIVE_OPTICS_V15P\\rigid_group_retrain_20260908\\results\\fast_trial",
+    "trepan_reason": "User confirmed SHWFS is outside the mainline; 50/50 optical and speckle checks passed",
+    "trepan_validation": "speckle_mainline_50",
+    "sampler_sha256": "abe3319e039fe56398c270810d7d4bed54af23aacbc31418508a64ee14385e5b",
+    "execution_backend": "batch_current_rayoptics_path"
+  },
+  "architectures": {
+    "arch_a": {
+      "trepan2p": {
+        "front_checkpoint": "C:\\Users\\Ar114514\\OneDrive\\文档\\_UCSB\\ECE\\Adaptive Optics\\ADAPTIVE_OPTICS_V15P\\rigid_group_retrain_20260908\\checkpoints\\trepan2p_front_arch_a.pt",
+        "rear_checkpoint": "C:\\Users\\Ar114514\\OneDrive\\文档\\_UCSB\\ECE\\Adaptive Optics\\ADAPTIVE_OPTICS_V15P\\rigid_group_retrain_20260908\\checkpoints\\trepan2p_rear_arch_a.pt"
+      },
+      "nikon": {
+        "group_checkpoints": {
+          "G1": "C:\\Users\\Ar114514\\OneDrive\\文档\\_UCSB\\ECE\\Adaptive Optics\\ADAPTIVE_OPTICS_V15P\\rigid_group_retrain_20260908\\checkpoints\\nikon_G1_arch_a.pt",
+          "G2": "C:\\Users\\Ar114514\\OneDrive\\文档\\_UCSB\\ECE\\Adaptive Optics\\ADAPTIVE_OPTICS_V15P\\rigid_group_retrain_20260908\\checkpoints\\nikon_G2_arch_a.pt",
+          "G3": "C:\\Users\\Ar114514\\OneDrive\\文档\\_UCSB\\ECE\\Adaptive Optics\\ADAPTIVE_OPTICS_V15P\\rigid_group_retrain_20260908\\checkpoints\\nikon_G3_arch_a.pt"
+        },
+        "groups": {
+          "G1": [
+            "L1",
+            "L2",
+            "L3"
+          ],
+          "G2": [
+            "L4",
+            "L5",
+            "L6"
+          ],
+          "G3": [
+            "L7p"
+          ]
+        },
+        "sampling_mode": "joint_context",
+        "capture_calibration": "C:\\Users\\Ar114514\\OneDrive\\文档\\_UCSB\\ECE\\Adaptive Optics\\ADAPTIVE_OPTICS_V15P\\rigid_group_retrain_20260908\\results\\nikon_capture_calibration35.npz",
+        "center_calibration": "C:\\Users\\Ar114514\\OneDrive\\文档\\_UCSB\\ECE\\Adaptive Optics\\ADAPTIVE_OPTICS_V15P\\rigid_group_retrain_20260908\\results\\nikon_center_calibration35.npz",
+        "smoke_dataset": "C:\\Users\\Ar114514\\OneDrive\\文档\\_UCSB\\ECE\\Adaptive Optics\\ADAPTIVE_OPTICS_V15P\\rigid_group_retrain_20260908\\data\\nikon_G1_joint_context\\batch_0000.npz"
+      }
+    },
+    "arch_b": {
+      "trepan2p": {
+        "front_checkpoint": "C:\\Users\\Ar114514\\OneDrive\\文档\\_UCSB\\ECE\\Adaptive Optics\\ADAPTIVE_OPTICS_V15P\\rigid_group_retrain_20260908\\checkpoints\\trepan2p_front_arch_b.pt",
+        "rear_checkpoint": "C:\\Users\\Ar114514\\OneDrive\\文档\\_UCSB\\ECE\\Adaptive Optics\\ADAPTIVE_OPTICS_V15P\\rigid_group_retrain_20260908\\checkpoints\\trepan2p_rear_arch_b.pt"
+      },
+      "nikon": {
+        "group_checkpoints": {
+          "G1": "C:\\Users\\Ar114514\\OneDrive\\文档\\_UCSB\\ECE\\Adaptive Optics\\ADAPTIVE_OPTICS_V15P\\rigid_group_retrain_20260908\\checkpoints\\nikon_G1_arch_b.pt",
+          "G2": "C:\\Users\\Ar114514\\OneDrive\\文档\\_UCSB\\ECE\\Adaptive Optics\\ADAPTIVE_OPTICS_V15P\\rigid_group_retrain_20260908\\checkpoints\\nikon_G2_arch_b.pt",
+          "G3": "C:\\Users\\Ar114514\\OneDrive\\文档\\_UCSB\\ECE\\Adaptive Optics\\ADAPTIVE_OPTICS_V15P\\rigid_group_retrain_20260908\\checkpoints\\nikon_G3_arch_b.pt"
+        },
+        "groups": {
+          "G1": [
+            "L1",
+            "L2",
+            "L3"
+          ],
+          "G2": [
+            "L4",
+            "L5",
+            "L6"
+          ],
+          "G3": [
+            "L7p"
+          ]
+        },
+        "sampling_mode": "joint_context",
+        "capture_calibration": "C:\\Users\\Ar114514\\OneDrive\\文档\\_UCSB\\ECE\\Adaptive Optics\\ADAPTIVE_OPTICS_V15P\\rigid_group_retrain_20260908\\results\\nikon_capture_calibration35.npz",
+        "center_calibration": "C:\\Users\\Ar114514\\OneDrive\\文档\\_UCSB\\ECE\\Adaptive Optics\\ADAPTIVE_OPTICS_V15P\\rigid_group_retrain_20260908\\results\\nikon_center_calibration35.npz",
+        "smoke_dataset": "C:\\Users\\Ar114514\\OneDrive\\文档\\_UCSB\\ECE\\Adaptive Optics\\ADAPTIVE_OPTICS_V15P\\rigid_group_retrain_20260908\\data\\nikon_G1_joint_context\\batch_0000.npz"
+      }
+    },
+    "arch_c": {
+      "trepan2p": {
+        "front_checkpoint": "C:\\Users\\Ar114514\\OneDrive\\文档\\_UCSB\\ECE\\Adaptive Optics\\ADAPTIVE_OPTICS_V15P\\rigid_group_retrain_20260908\\checkpoints\\trepan2p_front_arch_c.pt",
+        "rear_checkpoint": "C:\\Users\\Ar114514\\OneDrive\\文档\\_UCSB\\ECE\\Adaptive Optics\\ADAPTIVE_OPTICS_V15P\\rigid_group_retrain_20260908\\checkpoints\\trepan2p_rear_arch_c.pt"
+      },
+      "nikon": {
+        "group_checkpoints": {
+          "G1": "C:\\Users\\Ar114514\\OneDrive\\文档\\_UCSB\\ECE\\Adaptive Optics\\ADAPTIVE_OPTICS_V15P\\rigid_group_retrain_20260908\\checkpoints\\nikon_G1_arch_c.pt",
+          "G2": "C:\\Users\\Ar114514\\OneDrive\\文档\\_UCSB\\ECE\\Adaptive Optics\\ADAPTIVE_OPTICS_V15P\\rigid_group_retrain_20260908\\checkpoints\\nikon_G2_arch_c.pt",
+          "G3": "C:\\Users\\Ar114514\\OneDrive\\文档\\_UCSB\\ECE\\Adaptive Optics\\ADAPTIVE_OPTICS_V15P\\rigid_group_retrain_20260908\\checkpoints\\nikon_G3_arch_c.pt"
+        },
+        "groups": {
+          "G1": [
+            "L1",
+            "L2",
+            "L3"
+          ],
+          "G2": [
+            "L4",
+            "L5",
+            "L6"
+          ],
+          "G3": [
+            "L7p"
+          ]
+        },
+        "sampling_mode": "joint_context",
+        "capture_calibration": "C:\\Users\\Ar114514\\OneDrive\\文档\\_UCSB\\ECE\\Adaptive Optics\\ADAPTIVE_OPTICS_V15P\\rigid_group_retrain_20260908\\results\\nikon_capture_calibration35.npz",
+        "center_calibration": "C:\\Users\\Ar114514\\OneDrive\\文档\\_UCSB\\ECE\\Adaptive Optics\\ADAPTIVE_OPTICS_V15P\\rigid_group_retrain_20260908\\results\\nikon_center_calibration35.npz",
+        "smoke_dataset": "C:\\Users\\Ar114514\\OneDrive\\文档\\_UCSB\\ECE\\Adaptive Optics\\ADAPTIVE_OPTICS_V15P\\rigid_group_retrain_20260908\\data\\nikon_G1_joint_context\\batch_0000.npz"
+      }
+    },
+    "slor": {
+      "trepan2p": {
+        "front_checkpoint": "C:\\Users\\Ar114514\\OneDrive\\文档\\_UCSB\\ECE\\Adaptive Optics\\ADAPTIVE_OPTICS_V15P\\rigid_group_retrain_20260908\\checkpoints\\trepan2p_front_slor.pt",
+        "rear_checkpoint": "C:\\Users\\Ar114514\\OneDrive\\文档\\_UCSB\\ECE\\Adaptive Optics\\ADAPTIVE_OPTICS_V15P\\rigid_group_retrain_20260908\\checkpoints\\trepan2p_rear_slor.pt"
+      },
+      "nikon": {
+        "group_checkpoints": {
+          "G1": "C:\\Users\\Ar114514\\OneDrive\\文档\\_UCSB\\ECE\\Adaptive Optics\\ADAPTIVE_OPTICS_V15P\\rigid_group_retrain_20260908\\checkpoints\\nikon_G1_slor.pt",
+          "G2": "C:\\Users\\Ar114514\\OneDrive\\文档\\_UCSB\\ECE\\Adaptive Optics\\ADAPTIVE_OPTICS_V15P\\rigid_group_retrain_20260908\\checkpoints\\nikon_G2_slor.pt",
+          "G3": "C:\\Users\\Ar114514\\OneDrive\\文档\\_UCSB\\ECE\\Adaptive Optics\\ADAPTIVE_OPTICS_V15P\\rigid_group_retrain_20260908\\checkpoints\\nikon_G3_slor.pt"
+        },
+        "groups": {
+          "G1": [
+            "L1",
+            "L2",
+            "L3"
+          ],
+          "G2": [
+            "L4",
+            "L5",
+            "L6"
+          ],
+          "G3": [
+            "L7p"
+          ]
+        },
+        "sampling_mode": "joint_context",
+        "capture_calibration": "C:\\Users\\Ar114514\\OneDrive\\文档\\_UCSB\\ECE\\Adaptive Optics\\ADAPTIVE_OPTICS_V15P\\rigid_group_retrain_20260908\\results\\nikon_capture_calibration35.npz",
+        "center_calibration": "C:\\Users\\Ar114514\\OneDrive\\文档\\_UCSB\\ECE\\Adaptive Optics\\ADAPTIVE_OPTICS_V15P\\rigid_group_retrain_20260908\\results\\nikon_center_calibration35.npz",
+        "smoke_dataset": "C:\\Users\\Ar114514\\OneDrive\\文档\\_UCSB\\ECE\\Adaptive Optics\\ADAPTIVE_OPTICS_V15P\\rigid_group_retrain_20260908\\data\\nikon_G1_joint_context\\batch_0000.npz"
+      }
+    },
+    "sensitivity_svd": {
+      "trepan2p": {
+        "front_checkpoint": "C:\\Users\\Ar114514\\OneDrive\\文档\\_UCSB\\ECE\\Adaptive Optics\\ADAPTIVE_OPTICS_V15P\\rigid_group_retrain_20260908\\checkpoints\\trepan2p_front_sensitivity_svd.pt",
+        "rear_checkpoint": "C:\\Users\\Ar114514\\OneDrive\\文档\\_UCSB\\ECE\\Adaptive Optics\\ADAPTIVE_OPTICS_V15P\\rigid_group_retrain_20260908\\checkpoints\\trepan2p_rear_sensitivity_svd.pt"
+      },
+      "nikon": {
+        "group_checkpoints": {
+          "G1": "C:\\Users\\Ar114514\\OneDrive\\文档\\_UCSB\\ECE\\Adaptive Optics\\ADAPTIVE_OPTICS_V15P\\rigid_group_retrain_20260908\\checkpoints\\nikon_G1_sensitivity_svd.pt",
+          "G2": "C:\\Users\\Ar114514\\OneDrive\\文档\\_UCSB\\ECE\\Adaptive Optics\\ADAPTIVE_OPTICS_V15P\\rigid_group_retrain_20260908\\checkpoints\\nikon_G2_sensitivity_svd.pt",
+          "G3": "C:\\Users\\Ar114514\\OneDrive\\文档\\_UCSB\\ECE\\Adaptive Optics\\ADAPTIVE_OPTICS_V15P\\rigid_group_retrain_20260908\\checkpoints\\nikon_G3_sensitivity_svd.pt"
+        },
+        "groups": {
+          "G1": [
+            "L1",
+            "L2",
+            "L3"
+          ],
+          "G2": [
+            "L4",
+            "L5",
+            "L6"
+          ],
+          "G3": [
+            "L7p"
+          ]
+        },
+        "sampling_mode": "joint_context",
+        "capture_calibration": "C:\\Users\\Ar114514\\OneDrive\\文档\\_UCSB\\ECE\\Adaptive Optics\\ADAPTIVE_OPTICS_V15P\\rigid_group_retrain_20260908\\results\\nikon_capture_calibration35.npz",
+        "center_calibration": "C:\\Users\\Ar114514\\OneDrive\\文档\\_UCSB\\ECE\\Adaptive Optics\\ADAPTIVE_OPTICS_V15P\\rigid_group_retrain_20260908\\results\\nikon_center_calibration35.npz",
+        "smoke_dataset": "C:\\Users\\Ar114514\\OneDrive\\文档\\_UCSB\\ECE\\Adaptive Optics\\ADAPTIVE_OPTICS_V15P\\rigid_group_retrain_20260908\\data\\nikon_G1_joint_context\\batch_0000.npz"
+      }
+    }
+  },
+  "checkpoint_hashes": {
+    "C:\\Users\\Ar114514\\OneDrive\\文档\\_UCSB\\ECE\\Adaptive Optics\\ADAPTIVE_OPTICS_V15P\\rigid_group_retrain_20260908\\checkpoints\\trepan2p_front_arch_a.pt": "22e4da93a52ece281ad2dac109f6ad2cd0692a88b2926c5fe906cc2d881a7a23",
+    "C:\\Users\\Ar114514\\OneDrive\\文档\\_UCSB\\ECE\\Adaptive Optics\\ADAPTIVE_OPTICS_V15P\\rigid_group_retrain_20260908\\checkpoints\\trepan2p_rear_arch_a.pt": "bbf01c1499ffcdf9f6de33c9c194b490384dffbc4b0bf6859022dc0d5939f59e",
+    "C:\\Users\\Ar114514\\OneDrive\\文档\\_UCSB\\ECE\\Adaptive Optics\\ADAPTIVE_OPTICS_V15P\\rigid_group_retrain_20260908\\checkpoints\\nikon_G1_arch_a.pt": "127795bb4ede769687030fa678a8afd3e9e7c8068d17a5ddbe9c68048c06f398",
+    "C:\\Users\\Ar114514\\OneDrive\\文档\\_UCSB\\ECE\\Adaptive Optics\\ADAPTIVE_OPTICS_V15P\\rigid_group_retrain_20260908\\checkpoints\\nikon_G2_arch_a.pt": "d184e8e60b14f846dc0c87da4ca23fa7a4476c5c4cd91083636ec08c1cd08ca3",
+    "C:\\Users\\Ar114514\\OneDrive\\文档\\_UCSB\\ECE\\Adaptive Optics\\ADAPTIVE_OPTICS_V15P\\rigid_group_retrain_20260908\\checkpoints\\nikon_G3_arch_a.pt": "c65ad4ce3fa5f37833fdc2da99a65ccb396bd5e12c814ca84731ae846db3a5fc",
+    "C:\\Users\\Ar114514\\OneDrive\\文档\\_UCSB\\ECE\\Adaptive Optics\\ADAPTIVE_OPTICS_V15P\\rigid_group_retrain_20260908\\checkpoints\\trepan2p_front_arch_b.pt": "d4fffbd635c5c657d7c0c3e8bc722a2fc77dba6e8f81139bfc94dd69b6a3399a",
+    "C:\\Users\\Ar114514\\OneDrive\\文档\\_UCSB\\ECE\\Adaptive Optics\\ADAPTIVE_OPTICS_V15P\\rigid_group_retrain_20260908\\checkpoints\\trepan2p_rear_arch_b.pt": "3b66b44a78b1f3341aae09dc0c6819236371d4c0202895c98ef1c6f8799ef1e8",
+    "C:\\Users\\Ar114514\\OneDrive\\文档\\_UCSB\\ECE\\Adaptive Optics\\ADAPTIVE_OPTICS_V15P\\rigid_group_retrain_20260908\\checkpoints\\nikon_G1_arch_b.pt": "b0c4a21d900d5ff8dcfc6f7de66ad7a083f5319f47957cc200801ea6eb0a6eb9",
+    "C:\\Users\\Ar114514\\OneDrive\\文档\\_UCSB\\ECE\\Adaptive Optics\\ADAPTIVE_OPTICS_V15P\\rigid_group_retrain_20260908\\checkpoints\\nikon_G2_arch_b.pt": "7a64452cfe619a5d83486624b32f4895a0725ca9243e25d8dd80960cb15c08ac",
+    "C:\\Users\\Ar114514\\OneDrive\\文档\\_UCSB\\ECE\\Adaptive Optics\\ADAPTIVE_OPTICS_V15P\\rigid_group_retrain_20260908\\checkpoints\\nikon_G3_arch_b.pt": "fb4d1107c6d15d6df665ce237785e19017f9133c9a29ab2422a8e8984e3319da",
+    "C:\\Users\\Ar114514\\OneDrive\\文档\\_UCSB\\ECE\\Adaptive Optics\\ADAPTIVE_OPTICS_V15P\\rigid_group_retrain_20260908\\checkpoints\\trepan2p_front_arch_c.pt": "87ba20c974d38ca5959e9b5707cc89948e5f8e01de21b068be5c2bf6d15fa42e",
+    "C:\\Users\\Ar114514\\OneDrive\\文档\\_UCSB\\ECE\\Adaptive Optics\\ADAPTIVE_OPTICS_V15P\\rigid_group_retrain_20260908\\checkpoints\\trepan2p_rear_arch_c.pt": "a908afe3cf82d1d546c5665ddd49d305578c030d58e68fbd8d88bfa082634f4e",
+    "C:\\Users\\Ar114514\\OneDrive\\文档\\_UCSB\\ECE\\Adaptive Optics\\ADAPTIVE_OPTICS_V15P\\rigid_group_retrain_20260908\\checkpoints\\nikon_G1_arch_c.pt": "968acea591007631188fdb49d2aa01efa9aa48ac718dd3c562410792e3d2d194",
+    "C:\\Users\\Ar114514\\OneDrive\\文档\\_UCSB\\ECE\\Adaptive Optics\\ADAPTIVE_OPTICS_V15P\\rigid_group_retrain_20260908\\checkpoints\\nikon_G2_arch_c.pt": "42345582cf52b5a0b76f3b3105a6dd0539d8eea2ca745d65354b1da5fee8df00",
+    "C:\\Users\\Ar114514\\OneDrive\\文档\\_UCSB\\ECE\\Adaptive Optics\\ADAPTIVE_OPTICS_V15P\\rigid_group_retrain_20260908\\checkpoints\\nikon_G3_arch_c.pt": "eb2eef2e9a66dcd0e6d5ac73c6bdb51d75ad8ae1930147641de54505431dbfc3",
+    "C:\\Users\\Ar114514\\OneDrive\\文档\\_UCSB\\ECE\\Adaptive Optics\\ADAPTIVE_OPTICS_V15P\\rigid_group_retrain_20260908\\checkpoints\\trepan2p_front_slor.pt": "2cd790b98b2d7c268a8bccccb05427fbf727f8dcce065260b0fe9154b88a7dbb",
+    "C:\\Users\\Ar114514\\OneDrive\\文档\\_UCSB\\ECE\\Adaptive Optics\\ADAPTIVE_OPTICS_V15P\\rigid_group_retrain_20260908\\checkpoints\\trepan2p_rear_slor.pt": "4b5a3c4260f4440c7a6e735c6821ae573b374460567a4b1e6e3af00026506e8a",
+    "C:\\Users\\Ar114514\\OneDrive\\文档\\_UCSB\\ECE\\Adaptive Optics\\ADAPTIVE_OPTICS_V15P\\rigid_group_retrain_20260908\\checkpoints\\nikon_G1_slor.pt": "3c3d8dfb048383b2d39634893a5b79b9bba5e55facc622be787f4fc48129abd2",
+    "C:\\Users\\Ar114514\\OneDrive\\文档\\_UCSB\\ECE\\Adaptive Optics\\ADAPTIVE_OPTICS_V15P\\rigid_group_retrain_20260908\\checkpoints\\nikon_G2_slor.pt": "2e8cb11c4ecf6402be9384f78f446c1b44b41f4242f7f89feb2d3bd6855951cf",
+    "C:\\Users\\Ar114514\\OneDrive\\文档\\_UCSB\\ECE\\Adaptive Optics\\ADAPTIVE_OPTICS_V15P\\rigid_group_retrain_20260908\\checkpoints\\nikon_G3_slor.pt": "29ac5fe0fe5e8166cb607e88e304fc3cd81a2eded69b29781e5355530746cd18",
+    "C:\\Users\\Ar114514\\OneDrive\\文档\\_UCSB\\ECE\\Adaptive Optics\\ADAPTIVE_OPTICS_V15P\\rigid_group_retrain_20260908\\checkpoints\\trepan2p_front_sensitivity_svd.pt": "b8ecdd080aec4262f6f5b9e406184be18046961ad81cf188323bf3f32acc2d21",
+    "C:\\Users\\Ar114514\\OneDrive\\文档\\_UCSB\\ECE\\Adaptive Optics\\ADAPTIVE_OPTICS_V15P\\rigid_group_retrain_20260908\\checkpoints\\trepan2p_rear_sensitivity_svd.pt": "0807f0670b37d6013525e29c5bbdc2fe72f5c52d9119cf7972d4868b0928538f",
+    "C:\\Users\\Ar114514\\OneDrive\\文档\\_UCSB\\ECE\\Adaptive Optics\\ADAPTIVE_OPTICS_V15P\\rigid_group_retrain_20260908\\checkpoints\\nikon_G1_sensitivity_svd.pt": "d52fac15d4db859070f1dbcdb5b5814d06d65c3d3889f67d0328fa242b1476b6",
+    "C:\\Users\\Ar114514\\OneDrive\\文档\\_UCSB\\ECE\\Adaptive Optics\\ADAPTIVE_OPTICS_V15P\\rigid_group_retrain_20260908\\checkpoints\\nikon_G2_sensitivity_svd.pt": "dd026d52ee162ad3d49dc24c07c21bc16636ed25f00738ee5b3bd81238859523",
+    "C:\\Users\\Ar114514\\OneDrive\\文档\\_UCSB\\ECE\\Adaptive Optics\\ADAPTIVE_OPTICS_V15P\\rigid_group_retrain_20260908\\checkpoints\\nikon_G3_sensitivity_svd.pt": "12b3954e8cc5b85d4f6c695e78c7aa911ef9632ae1ee9ccb1a35066a90870665"
+  },
+  "execution_backend": "batch_current_rayoptics_path"
+}

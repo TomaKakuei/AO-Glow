@@ -1,0 +1,208 @@
+{
+  "version": "20261006",
+  "systems": {
+    "mod3": {
+      "latest": {
+        "checkpoints": {
+          "front": {
+            "path": "vendor/RAYOPTICS_RESTORE_20260929/dao_mod03/sampling_front3_rear4/coordinated_7k_20261006/training/front/candidate.pt",
+            "sha256": "0f796605429c30cf2ba6833e03ab5c085b927a8a367ff5b85cc1289408f851c3",
+            "bytes": 6617350
+          },
+          "rear": {
+            "path": "vendor/RAYOPTICS_RESTORE_20260929/dao_mod03/sampling_front3_rear4/coordinated_7k_20261006/training/rear/candidate.pt",
+            "sha256": "21aa66903864955fafe6daee99c5a851100c26a15a391172cc0d32fa47f30a97",
+            "bytes": 6711670
+          }
+        },
+        "scope": "7000train+500selection-validation each; selected front43/rear34; isolated one-shot validation only; no assembled closed-loop result.",
+        "metadata": {
+          "center_under_007": {
+            "front": 1.0,
+            "rear": 0.866
+          },
+          "mean_field_wrms": {
+            "front": 0.05180850883089387,
+            "rear": 0.09050333316009926
+          }
+        }
+      },
+      "closed_loop": {
+        "checkpoints": {
+          "front": {
+            "path": "vendor/RAYOPTICS_RESTORE_20260929/dao_mod03/sampling_front3_rear4/modular_sensorless_4k_r1/training/nonlinear_candidate/front_arch_a.pt",
+            "sha256": "9ebda4fe0d13cd9aad80be5dfbfcd0e3ebcf966af65b6a05acae2ec14d4af181",
+            "bytes": 3107140
+          },
+          "rear": {
+            "path": "vendor/RAYOPTICS_RESTORE_20260929/dao_mod03/sampling_front3_rear4/modular_sensorless_4k_r1/rear10_revision01/training/nonlinear_candidate/rear_arch_a.pt",
+            "sha256": "61072a4448d6afe49ef99d1055673f25f870b823acf887ef88717377dd623fa8",
+            "bytes": 3193848
+          }
+        },
+        "scope": "Weights used in original fifteen-case noisy-sensorless repaired-control experiment; selected front34/rear10.",
+        "metadata": {}
+      }
+    },
+    "nikon": {
+      "latest": {
+        "checkpoints": {
+          "joint": {
+            "path": "vendor/Adaptive Optics/ADAPTIVE_OPTICS_V15P/nikon_coordinated_center_20261005/candidate.pt",
+            "sha256": "01a7e0f2043954e224a60f6c6013d0f521ae35dd81d0d8fbf307eaee148ddedc",
+            "bytes": 5235588
+          }
+        },
+        "scope": "Coordinated seven-body35DOF candidate, selected49; 5282/6000 selection-validation center WRMS<.07; newest coordinated controller interface; not new closed-loop evidence.",
+        "metadata": {}
+      },
+      "closed_loop": {
+        "checkpoints": {
+          "G1": {
+            "path": "vendor/Adaptive Optics/ADAPTIVE_OPTICS_V15P/rigid_group_retrain_20260908/checkpoints/nikon_G1_arch_a.pt",
+            "sha256": "127795bb4ede769687030fa678a8afd3e9e7c8068d17a5ddbe9c68048c06f398",
+            "bytes": 1314381
+          },
+          "G2": {
+            "path": "vendor/Adaptive Optics/ADAPTIVE_OPTICS_V15P/rigid_group_retrain_20260908/checkpoints/nikon_G2_arch_a.pt",
+            "sha256": "d184e8e60b14f846dc0c87da4ca23fa7a4476c5c4cd91083636ec08c1cd08ca3",
+            "bytes": 1314381
+          },
+          "G3": {
+            "path": "vendor/Adaptive Optics/ADAPTIVE_OPTICS_V15P/rigid_group_retrain_20260908/checkpoints/nikon_G3_arch_a.pt",
+            "sha256": "c65ad4ce3fa5f37833fdc2da99a65ccb396bd5e12c814ca84731ae846db3a5fc",
+            "bytes": 1177765
+          }
+        },
+        "scope": "Original corrected G1/G2/G3 weights used by published complete L4 closed-loop control.",
+        "metadata": {}
+      }
+    },
+    "trepan": {
+      "closed_loop": {
+        "checkpoints": {
+          "front": {
+            "path": "vendor/Adaptive Optics/ADAPTIVE_OPTICS_V15P/rigid_group_retrain_20260908/checkpoints/trepan2p_front_arch_a.pt",
+            "sha256": "22e4da93a52ece281ad2dac109f6ad2cd0692a88b2926c5fe906cc2d881a7a23",
+            "bytes": 1414977
+          },
+          "rear": {
+            "path": "vendor/Adaptive Optics/ADAPTIVE_OPTICS_V15P/rigid_group_retrain_20260908/checkpoints/trepan2p_rear_arch_a.pt",
+            "sha256": "bbf01c1499ffcdf9f6de33c9c194b490384dffbc4b0bf6859022dc0d5939f59e",
+            "bytes": 1414977
+          }
+        },
+        "scope": "Original rigid-tilt-corrected paired ArchA weights used by published balanced20 closed-loop pipeline.",
+        "metadata": {}
+      },
+      "differentiable": {
+        "checkpoints": {
+          "front": {
+            "path": "vendor/Adaptive Optics/ADAPTIVE_OPTICS_V15P/other_paths_differentiable_20261001/trepan_front/candidate.pt",
+            "sha256": "8d9858f7781601d4ef33b46be243f2e3b1626ea4f31941d821b87e0e9b760953",
+            "bytes": 1415425
+          },
+          "rear": {
+            "path": "vendor/Adaptive Optics/ADAPTIVE_OPTICS_V15P/other_paths_differentiable_20261001/trepan_rear/candidate.pt",
+            "sha256": "50f49d1b190c8a823238adef0616b3143067da0e9095a48ff2701c315972bfd6",
+            "bytes": 1415425
+          }
+        },
+        "scope": "Latest independently checked isolated-module differentiable candidates; closed-loop superiority is not established.",
+        "metadata": {}
+      },
+      "latest": {
+        "checkpoints": {
+          "front": {
+            "path": "vendor/Adaptive Optics/ADAPTIVE_OPTICS_V15P/other_paths_differentiable_20261001/trepan_front/candidate.pt",
+            "sha256": "8d9858f7781601d4ef33b46be243f2e3b1626ea4f31941d821b87e0e9b760953",
+            "bytes": 1415425
+          },
+          "rear": {
+            "path": "vendor/Adaptive Optics/ADAPTIVE_OPTICS_V15P/other_paths_differentiable_20261001/trepan_rear/candidate.pt",
+            "sha256": "50f49d1b190c8a823238adef0616b3143067da0e9095a48ff2701c315972bfd6",
+            "bytes": 1415425
+          }
+        },
+        "scope": "Latest independently checked isolated-module differentiable candidates; closed-loop superiority is not established.",
+        "metadata": {}
+      }
+    },
+    "kla": {
+      "closed_loop": {
+        "checkpoints": {
+          "module2": {
+            "path": "vendor/Adaptive Optics/ADAPTIVE_OPTICS_V15P/canonical_three_phase_universal/checkpoints/kla_arch_a.pt",
+            "sha256": "6b1a30180f419317c1ee5f22d1fae9f3d66cb49bfe13d3810c3d1afc3468bee7",
+            "bytes": 1346509
+          },
+          "module3": {
+            "path": "vendor/Adaptive Optics/ADAPTIVE_OPTICS_V15P/kaleid_modular_repair_20260906/checkpoints/kla_module3_arch_a.pt",
+            "sha256": "3948092a000fb9b7847f01430928e86f3bf30fe91bc5e7c281fc9bed6f01c5dc",
+            "bytes": 1346829
+          },
+          "module4": {
+            "path": "vendor/Adaptive Optics/ADAPTIVE_OPTICS_V15P/kaleid_modular_repair_20260906/checkpoints/kla_module4_arch_a.pt",
+            "sha256": "d9aa9f2a1e89bf657a6fe1dac0a4b203a17d01d5dbc6a0594485acdeeb9db649",
+            "bytes": 1278489
+          }
+        },
+        "scope": "Three original ArchA module weights used by published adaptive phase/MTF L4 pipeline.",
+        "metadata": {}
+      },
+      "warmstart_7k": {
+        "checkpoints": {
+          "module2": {
+            "path": "vendor/Adaptive Optics/ADAPTIVE_OPTICS_V15P/canonical_three_phase_universal/checkpoints/kla_arch_a_7k_warmstart.pt",
+            "sha256": "1da8e66a485b82878812f6d28ae2d547522b9229287d3995f7cd68975879b80d",
+            "bytes": 1346637
+          }
+        },
+        "scope": "Separate original KLA seven-thousand warm-start Condition C task-specific pipeline; not a replacement for the three-module L4 checkpoint set.",
+        "metadata": {}
+      },
+      "differentiable": {
+        "checkpoints": {
+          "module2": {
+            "path": "vendor/Adaptive Optics/ADAPTIVE_OPTICS_V15P/other_paths_differentiable_20261001/kla_module2/candidate.pt",
+            "sha256": "f22be5e829e87f27f5baf9be1373d3dd54210113c2586a08b993f7647e3d0a03",
+            "bytes": 1347021
+          },
+          "module3": {
+            "path": "vendor/Adaptive Optics/ADAPTIVE_OPTICS_V15P/other_paths_differentiable_20261001/kla_module3/candidate.pt",
+            "sha256": "6b7ecf6a714d96bfbbc994e2d6cd241a9047ffbb08feb1804247dfa1fb9fdc69",
+            "bytes": 1347341
+          },
+          "module4": {
+            "path": "vendor/Adaptive Optics/ADAPTIVE_OPTICS_V15P/other_paths_differentiable_20261001/kla_module4/candidate.pt",
+            "sha256": "6949755a3962393fab17f8fe1bbe19774348022b46afac23dc0943d9e0f5c65f",
+            "bytes": 1279001
+          }
+        },
+        "scope": "Latest independently checked isolated-module differentiable candidates; closed-loop superiority is not established.",
+        "metadata": {}
+      },
+      "latest": {
+        "checkpoints": {
+          "module2": {
+            "path": "vendor/Adaptive Optics/ADAPTIVE_OPTICS_V15P/other_paths_differentiable_20261001/kla_module2/candidate.pt",
+            "sha256": "f22be5e829e87f27f5baf9be1373d3dd54210113c2586a08b993f7647e3d0a03",
+            "bytes": 1347021
+          },
+          "module3": {
+            "path": "vendor/Adaptive Optics/ADAPTIVE_OPTICS_V15P/other_paths_differentiable_20261001/kla_module3/candidate.pt",
+            "sha256": "6b7ecf6a714d96bfbbc994e2d6cd241a9047ffbb08feb1804247dfa1fb9fdc69",
+            "bytes": 1347341
+          },
+          "module4": {
+            "path": "vendor/Adaptive Optics/ADAPTIVE_OPTICS_V15P/other_paths_differentiable_20261001/kla_module4/candidate.pt",
+            "sha256": "6949755a3962393fab17f8fe1bbe19774348022b46afac23dc0943d9e0f5c65f",
+            "bytes": 1279001
+          }
+        },
+        "scope": "Latest independently checked isolated-module differentiable candidates; closed-loop superiority is not established.",
+        "metadata": {}
+      }
+    }
+  }
+}

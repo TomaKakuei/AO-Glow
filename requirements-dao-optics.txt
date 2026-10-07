@@ -1,0 +1,4 @@
+# Install with: python -m pip install --no-deps -r requirements-dao-optics.txt
+# Numerical dependencies are installed by requirements-dao.txt.
+rayoptics==0.9.8
+opticalglass==1.1.1

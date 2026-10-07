@@ -1,0 +1,320 @@
+{
+  "status": "complete",
+  "epochs": 50,
+  "optimizer_updates": 9400,
+  "selected": {
+    "epoch": 49,
+    "validation": {
+      "overall": {
+        "count": 6000,
+        "passes": 5282,
+        "recovery_rate": 0.8803333333333333,
+        "invalid_count": 0,
+        "center_mean": 0.051623738959978197,
+        "center_median": 0.04715058011656696,
+        "center_p90": 0.0729931659385622,
+        "edge_difference_mean": 1.9673811488755497,
+        "edge_absolute_pttd_mean": 14.33339831616696
+      },
+      "groups": {
+        "G1": {
+          "count": 2000,
+          "passes": 1689,
+          "recovery_rate": 0.8445,
+          "invalid_count": 0,
+          "center_mean": 0.0551638393323914,
+          "center_median": 0.04993154382449918,
+          "center_p90": 0.07844805928969285,
+          "edge_difference_mean": 2.124874467277467,
+          "edge_absolute_pttd_mean": 14.301327355221458
+        },
+        "G2": {
+          "count": 2000,
+          "passes": 1775,
+          "recovery_rate": 0.8875,
+          "invalid_count": 0,
+          "center_mean": 0.05160534133636065,
+          "center_median": 0.04686599244678395,
+          "center_p90": 0.07122961560293217,
+          "edge_difference_mean": 1.9563047351604863,
+          "edge_absolute_pttd_mean": 14.370429183487046
+        },
+        "G3": {
+          "count": 2000,
+          "passes": 1818,
+          "recovery_rate": 0.909,
+          "invalid_count": 0,
+          "center_mean": 0.048102036211182544,
+          "center_median": 0.04406636728429113,
+          "center_p90": 0.06826014918604376,
+          "edge_difference_mean": 1.8209642441886953,
+          "edge_absolute_pttd_mean": 14.328438409792382
+        }
+      },
+      "old_source": {
+        "count": 3000,
+        "passes": 2630,
+        "recovery_rate": 0.8766666666666667,
+        "invalid_count": 0,
+        "center_mean": 0.05175972008122716,
+        "center_median": 0.0471865338975616,
+        "center_p90": 0.07338831579637108,
+        "edge_difference_mean": 1.9694709327157562,
+        "edge_absolute_pttd_mean": 14.33819390745852
+      },
+      "new_source": {
+        "count": 3000,
+        "passes": 2652,
+        "recovery_rate": 0.884,
+        "invalid_count": 0,
+        "center_mean": 0.051487757838729234,
+        "center_median": 0.047097601859301216,
+        "center_p90": 0.07260094663005519,
+        "edge_difference_mean": 1.9652913650353434,
+        "edge_absolute_pttd_mean": 14.328602724875404
+      }
+    },
+    "path": "C:\\Users\\arthu\\OneDrive\\文档\\_UCSB\\ECE\\Adaptive Optics\\ADAPTIVE_OPTICS_V15P\\nikon_coordinated_center_20261005\\candidate.pt",
+    "sha256": "01a7e0f2043954e224a60f6c6013d0f521ae35dd81d0d8fbf307eaee148ddedc",
+    "selection_rule": "highest full6000 center WRMS<0.07 rate; tie lowest centerP90, then mean"
+  },
+  "last_epoch": {
+    "epoch": 50,
+    "train_loss": 0.36524282454100476,
+    "physical_loss": 0.35202420412646945,
+    "pose_loss": 0.6609310355186463,
+    "train_probe": {
+      "overall": {
+        "count": 1500,
+        "passes": 1420,
+        "recovery_rate": 0.9466666666666667,
+        "invalid_count": 0,
+        "center_mean": 0.045710498959049155,
+        "center_median": 0.043543644432827974,
+        "center_p90": 0.06239355461681391,
+        "edge_difference_mean": 1.8576035161327287,
+        "edge_absolute_pttd_mean": 14.478018055971729
+      },
+      "groups": {
+        "G1": {
+          "count": 500,
+          "passes": 469,
+          "recovery_rate": 0.938,
+          "invalid_count": 0,
+          "center_mean": 0.046994991633282635,
+          "center_median": 0.04534334365297618,
+          "center_p90": 0.06443064729596366,
+          "edge_difference_mean": 1.9906315893850441,
+          "edge_absolute_pttd_mean": 14.4705054751056
+        },
+        "G2": {
+          "count": 500,
+          "passes": 473,
+          "recovery_rate": 0.946,
+          "invalid_count": 0,
+          "center_mean": 0.04645523964502968,
+          "center_median": 0.044472369611192324,
+          "center_p90": 0.06234544550075803,
+          "edge_difference_mean": 1.8451599348481387,
+          "edge_absolute_pttd_mean": 14.519316623762489
+        },
+        "G3": {
+          "count": 500,
+          "passes": 478,
+          "recovery_rate": 0.956,
+          "invalid_count": 0,
+          "center_mean": 0.04368126559883516,
+          "center_median": 0.041065407616649334,
+          "center_p90": 0.05957190507665184,
+          "edge_difference_mean": 1.7370190241650032,
+          "edge_absolute_pttd_mean": 14.444232069047098
+        }
+      },
+      "old_source": {
+        "count": 766,
+        "passes": 731,
+        "recovery_rate": 0.9543080939947781,
+        "invalid_count": 0,
+        "center_mean": 0.04552903126819899,
+        "center_median": 0.04350314704366989,
+        "center_p90": 0.06200226979017,
+        "edge_difference_mean": 1.8757146028855134,
+        "edge_absolute_pttd_mean": 14.495339286268281
+      },
+      "new_source": {
+        "count": 734,
+        "passes": 689,
+        "recovery_rate": 0.9386920980926431,
+        "invalid_count": 0,
+        "center_mean": 0.04589987804786554,
+        "center_median": 0.044063120619454305,
+        "center_p90": 0.06362261348721886,
+        "edge_difference_mean": 1.838702845216335,
+        "edge_absolute_pttd_mean": 14.459941676670422
+      }
+    },
+    "validation": {
+      "overall": {
+        "count": 6000,
+        "passes": 5244,
+        "recovery_rate": 0.874,
+        "invalid_count": 0,
+        "center_mean": 0.050843458488650545,
+        "center_median": 0.045614889888947754,
+        "center_p90": 0.07393451310641552,
+        "edge_difference_mean": 1.9061745097525582,
+        "edge_absolute_pttd_mean": 14.474708334312265
+      },
+      "groups": {
+        "G1": {
+          "count": 2000,
+          "passes": 1679,
+          "recovery_rate": 0.8395,
+          "invalid_count": 0,
+          "center_mean": 0.05451952396833245,
+          "center_median": 0.04860258879357775,
+          "center_p90": 0.07954206748512743,
+          "edge_difference_mean": 2.0478998752754998,
+          "edge_absolute_pttd_mean": 14.458930828899241
+        },
+        "G2": {
+          "count": 2000,
+          "passes": 1770,
+          "recovery_rate": 0.885,
+          "invalid_count": 0,
+          "center_mean": 0.05077881092633317,
+          "center_median": 0.04525823379977417,
+          "center_p90": 0.07176662529518238,
+          "edge_difference_mean": 1.9023414522805564,
+          "edge_absolute_pttd_mean": 14.506101127720536
+        },
+        "G3": {
+          "count": 2000,
+          "passes": 1795,
+          "recovery_rate": 0.8975,
+          "invalid_count": 0,
+          "center_mean": 0.047232040571286014,
+          "center_median": 0.04279321286096372,
+          "center_p90": 0.070722177912214,
+          "edge_difference_mean": 1.7682822017016175,
+          "edge_absolute_pttd_mean": 14.459093046317014
+        }
+      },
+      "old_source": {
+        "count": 3000,
+        "passes": 2617,
+        "recovery_rate": 0.8723333333333333,
+        "invalid_count": 0,
+        "center_mean": 0.05100870264479835,
+        "center_median": 0.045669631002193845,
+        "center_p90": 0.07456807142408364,
+        "edge_difference_mean": 1.9085661160754908,
+        "edge_absolute_pttd_mean": 14.480224071191563
+      },
+      "new_source": {
+        "count": 3000,
+        "passes": 2627,
+        "recovery_rate": 0.8756666666666667,
+        "invalid_count": 0,
+        "center_mean": 0.05067821433250274,
+        "center_median": 0.045512194867889544,
+        "center_p90": 0.07309758143928906,
+        "edge_difference_mean": 1.9037829034296252,
+        "edge_absolute_pttd_mean": 14.469192597432965
+      }
+    },
+    "invalid_training_endpoints": 0,
+    "epoch_seconds": 77.63388060010038
+  },
+  "elapsed_training_seconds": 4083.2860334001016,
+  "finalization_seconds": 10.812003900064155,
+  "timing_interruptions": [],
+  "background_running": false,
+  "assistant_review": "reviewed_complete",
+  "target_recovery_rate": 0.9,
+  "target_reached": false,
+  "manifest": {
+    "state": "ready_for_controller_use",
+    "checkpoint": "C:\\Users\\arthu\\OneDrive\\文档\\_UCSB\\ECE\\Adaptive Optics\\ADAPTIVE_OPTICS_V15P\\nikon_coordinated_center_20261005\\candidate.pt",
+    "sha256": "01a7e0f2043954e224a60f6c6013d0f521ae35dd81d0d8fbf307eaee148ddedc",
+    "selected_epoch": 49,
+    "input": "original noisy raw3x49; same grid transform plus native node branch; no target input",
+    "output": "normalized35 pose estimate; paper L1 command=-clip(prediction,-1.5,1.5)",
+    "inference_max_error": 0.0,
+    "automatic_validation": "passed",
+    "assistant_review": "reviewed_complete",
+    "original_active_predictor_preserved": true,
+    "interface_failure_preserved": "C:\\Users\\arthu\\OneDrive\\文档\\_UCSB\\ECE\\Adaptive Optics\\ADAPTIVE_OPTICS_V15P\\nikon_coordinated_center_20261005\\finalization_failure_original.json"
+  },
+  "adapter_validation": {
+    "overall": {
+      "count": 6000,
+      "passes": 5282,
+      "recovery_rate": 0.8803333333333333,
+      "invalid_count": 0,
+      "center_mean": 0.051623586637715844,
+      "center_median": 0.04715832350859977,
+      "center_p90": 0.0730002778873586,
+      "edge_difference_mean": 1.9673950579759134,
+      "edge_absolute_pttd_mean": 14.333392059912162
+    },
+    "groups": {
+      "G1": {
+        "count": 2000,
+        "passes": 1690,
+        "recovery_rate": 0.845,
+        "invalid_count": 0,
+        "center_mean": 0.05516382223122265,
+        "center_median": 0.04993494158287573,
+        "center_p90": 0.07844686322087714,
+        "edge_difference_mean": 2.124876802520136,
+        "edge_absolute_pttd_mean": 14.301281290580352
+      },
+      "G2": {
+        "count": 2000,
+        "passes": 1775,
+        "recovery_rate": 0.8875,
+        "invalid_count": 0,
+        "center_mean": 0.05160539472439579,
+        "center_median": 0.04686662802104562,
+        "center_p90": 0.0712153651425256,
+        "edge_difference_mean": 1.9563281717164236,
+        "edge_absolute_pttd_mean": 14.370480899864482
+      },
+      "G3": {
+        "count": 2000,
+        "passes": 1817,
+        "recovery_rate": 0.9085,
+        "invalid_count": 0,
+        "center_mean": 0.048101542957529116,
+        "center_median": 0.04409524543128562,
+        "center_p90": 0.06824079726464409,
+        "edge_difference_mean": 1.8209801996911799,
+        "edge_absolute_pttd_mean": 14.328413989291654
+      }
+    },
+    "old_source": {
+      "count": 3000,
+      "passes": 2630,
+      "recovery_rate": 0.8766666666666667,
+      "invalid_count": 0,
+      "center_mean": 0.05175912169900325,
+      "center_median": 0.04718002073121762,
+      "center_p90": 0.07338828133078742,
+      "edge_difference_mean": 1.9694887826278153,
+      "edge_absolute_pttd_mean": 14.338183994863465
+    },
+    "new_source": {
+      "count": 3000,
+      "passes": 2652,
+      "recovery_rate": 0.884,
+      "invalid_count": 0,
+      "center_mean": 0.051488051576428454,
+      "center_median": 0.04709018505568244,
+      "center_p90": 0.07265341569883807,
+      "edge_difference_mean": 1.9653013333240112,
+      "edge_absolute_pttd_mean": 14.328600124960857
+    }
+  },
+  "completion_note": "50epochs and original independent30 completed before an input-precision guard mismatch. Only finalization repaired; no new optimizer updates."
+}
